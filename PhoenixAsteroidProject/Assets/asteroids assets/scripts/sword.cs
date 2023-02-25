@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class sword : MonoBehaviour
 {
+    public ComboHealth comboHealth;
+
     void OnCollisionEnter(Collision targetObj) 
     {
-        print("sword hit");
-        // if(targetObj.gameObject.tag == "Enemy")
-        // {
-        //     targetObj.FractureObject();
-        // }
+        if (targetObj.gameObject.tag == "Enemy")
+        {
+            comboHealth.IncreaseCombo();
+        }
     }
 }
 

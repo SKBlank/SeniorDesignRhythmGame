@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{cb657a4c-1cf8-4310-5d0c-ebbd674ec603}</ProjectGuid>
+    <ProjectGuid>{3156ed90-71ed-1f67-bfe8-4646a52b8729}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,9 +38,11 @@
   <ItemGroup>
      <Compile Include="Assets\asteroids assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
      <Compile Include="Assets\asteroids assets\BreakableAsteroids\Scripts\Fracture.cs" />
-     <Compile Include="Assets\asteroids assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
+     <Compile Include="Assets\asteroids assets\scripts\ComboHealth.cs" />
+     <Compile Include="Assets\asteroids assets\scripts\asteroidCatcher.cs" />
      <Compile Include="Assets\asteroids assets\scripts\asteroidspawn.cs" />
      <Compile Include="Assets\asteroids assets\scripts\flyasteroid.cs" />
+     <Compile Include="Assets\asteroids assets\scripts\limitLifetime.cs" />
      <Compile Include="Assets\asteroids assets\scripts\sword.cs" />
      <None Include="Assets\_PoiyomiShaders\Shaders\7.3\Pro\Includes\CGI_PoiFrag.cginc" />
      <None Include="Assets\csc.rsp" />
@@ -667,54 +669,54 @@
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ThryAssemblyDefinition.csproj">
-      <Project>{705d99ce-e14b-74b4-0cab-f24aaf729c99}</Project>
+      <Project>{d1edf492-c066-a014-8099-4b0f2f9fde1d}</Project>
       <Name>ThryAssemblyDefinition</Name>
     </ProjectReference>
   </ItemGroup>
