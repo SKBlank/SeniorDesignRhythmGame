@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{104d08df-1f96-6097-4c79-56d7e9724d26}</ProjectGuid>
+    <ProjectGuid>{39f19dbc-21a2-c973-5388-8dfa57254ff9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -242,19 +242,19 @@
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -617,64 +617,64 @@
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{cb657a4c-1cf8-4310-5d0c-ebbd674ec603}</Project>
+      <Project>{3156ed90-71ed-1f67-bfe8-4646a52b8729}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="ThryAssemblyDefinition.csproj">
-      <Project>{705d99ce-e14b-74b4-0cab-f24aaf729c99}</Project>
+      <Project>{d1edf492-c066-a014-8099-4b0f2f9fde1d}</Project>
       <Name>ThryAssemblyDefinition</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{705d99ce-e14b-74b4-0cab-f24aaf729c99}</ProjectGuid>
+    <ProjectGuid>{d1edf492-c066-a014-8099-4b0f2f9fde1d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ThryAssemblyDefinition</AssemblyName>
@@ -256,19 +256,19 @@
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -631,16 +631,16 @@
         <HintPath>Z:/unity install/2019.4.30f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>Z:/unity/#my avatars/senior design game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/PhoenixAsteroidProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

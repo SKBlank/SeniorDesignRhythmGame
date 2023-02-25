@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3156ed90-71ed-1f67-bfe8-4646a52b8729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThryAssemblyDefinition", "ThryAssemblyDefinition.csproj", "{d1edf492-c066-a014-8099-4b0f2f9fde1d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{39f19dbc-21a2-c973-5388-8dfa57254ff9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3156ed90-71ed-1f67-bfe8-4646a52b8729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3156ed90-71ed-1f67-bfe8-4646a52b8729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d1edf492-c066-a014-8099-4b0f2f9fde1d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d1edf492-c066-a014-8099-4b0f2f9fde1d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39f19dbc-21a2-c973-5388-8dfa57254ff9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39f19dbc-21a2-c973-5388-8dfa57254ff9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
