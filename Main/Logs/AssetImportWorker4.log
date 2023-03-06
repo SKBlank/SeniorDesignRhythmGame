@@ -1,0 +1,1303 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 48925 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\unity install\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63594
+Successfully changed project path to: Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main
+Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10013).
+Player connection [27972] Host "[IP] 172.26.112.1 [Port] 0 [Flags] 2 [Guid] 1965769028 [EditorId] 1965769028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EVITKSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 43.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path Z:/unity install/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8041 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'Z:/unity install/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/unity install/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/unity install/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/unity install/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002994 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1605ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.4 MB). Loaded Objects now: 2383.
+Memory consumption went from 195.3 MB to 193.9 MB.
+Total: 5.151900 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 0.079900 ms MarkObjects: 4.138000 ms  DeleteObjects: 0.538500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114654.482822 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture14.prefab
+  artifactKey: Guid(a833525238ff43641adecba6d1e74821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture14.prefab using Guid(a833525238ff43641adecba6d1e74821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'G Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'B Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'A Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'G Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'B Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'A Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'G Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'B Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'A Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'G Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'B Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'A Channel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Force On'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Force Off'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Top Layer, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Bottom Layer, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Hue Shift, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Color and Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Layer 1, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Layer 2, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Smoothing'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Transform, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Volume, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Band, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Audio Mods, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Colors and Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'One, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Two, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Three, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Four, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '5994480270269e79e7a512ee1be6aaa2') in 26.912500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010045 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock1.prefab
+  artifactKey: Guid(a028a9caf7ccf2443a238296ded73a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock1.prefab using Guid(a028a9caf7ccf2443a238296ded73a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'e1b61e9634ad79a66fc41cefdabf7ef7') in 0.178929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007507 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture13.prefab
+  artifactKey: Guid(b66485824d4da074ca57921ca152d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture13.prefab using Guid(b66485824d4da074ca57921ca152d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '7d29877cb65ee9a8562d12db14402f7f') in 0.107027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001525 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock9.prefab
+  artifactKey: Guid(3054692602d6b2c418a430defcc5dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock9.prefab using Guid(3054692602d6b2c418a430defcc5dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '52f1b3036193b12cccaa019e5564e609') in 0.076608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture7.prefab
+  artifactKey: Guid(3411c56d2afd5af4a8df22b06f9551e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture7.prefab using Guid(3411c56d2afd5af4a8df22b06f9551e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '39168a04e150fbf5acf38e41069cb5f6') in 0.070522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002224 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '14e035814ea6ca4fedd84e7c55320529') in 0.071121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001952 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture1.prefab
+  artifactKey: Guid(9cb5e7465eef1af4988889e41a071493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture1.prefab using Guid(9cb5e7465eef1af4988889e41a071493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '5e2ea408f2bec6471a9e072ce1050b1c') in 0.074824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture6.prefab
+  artifactKey: Guid(a024271adb4d00a43904106a318d260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture6.prefab using Guid(a024271adb4d00a43904106a318d260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'e63173eda9b49cff4af4f7faad893385') in 0.083918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture8.prefab
+  artifactKey: Guid(0ff42f37aee0fec44bcd79763ae4f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture8.prefab using Guid(0ff42f37aee0fec44bcd79763ae4f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '8ec9e3d6e88c88bd7742407294f64519') in 0.079112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock14.prefab
+  artifactKey: Guid(ec4c29675987e87429aeec5e4e93fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock14.prefab using Guid(ec4c29675987e87429aeec5e4e93fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'e4df649c71d6c114785e4993b378953f') in 0.068953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001199 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock11.prefab
+  artifactKey: Guid(af2725044a76460448d036210c096953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock11.prefab using Guid(af2725044a76460448d036210c096953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '656cbc4d00c2c2350b85170a1e8e2922') in 0.071094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock7.prefab
+  artifactKey: Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock7.prefab using Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '87ca65b0dd7d858f920a8ef7b2d8ce36') in 0.075060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001570 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock4.prefab
+  artifactKey: Guid(b31bb4b021ef65f4fbaf7f2d7e56f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock4.prefab using Guid(b31bb4b021ef65f4fbaf7f2d7e56f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '2b1eacccd91819d13522c76921ad47b5') in 0.066592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003176 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture2.prefab
+  artifactKey: Guid(8a0d737915eae7a4e8c4176987503064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture2.prefab using Guid(8a0d737915eae7a4e8c4176987503064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '8c29b6c24dce447b2494df4ec9c14e32') in 0.072180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock13.prefab
+  artifactKey: Guid(46e7653dfbf77b247bc855c46bbd4f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock13.prefab using Guid(46e7653dfbf77b247bc855c46bbd4f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'b60148166d18406c54502e741d365d34') in 0.064282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/asteroids assets/Asteroids
+  artifactKey: Guid(f55715cb367497543a79a165115cbf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids using Guid(f55715cb367497543a79a165115cbf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab21a9103492da060c353fbba7371a6') in 0.027029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004881 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture4.prefab
+  artifactKey: Guid(9b4e5fd1d3dc2424fb4276ce71f932ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture4.prefab using Guid(9b4e5fd1d3dc2424fb4276ce71f932ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '609e48c88e239d220c51efa40a94201f') in 0.082896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids
+  artifactKey: Guid(7c3d47a4581b96245be6ab3a03dc0717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids using Guid(7c3d47a4581b96245be6ab3a03dc0717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a5d140c5c8a2bba74d6b65795935e2') in 0.005318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture5.prefab
+  artifactKey: Guid(3c8215a2e7ab319429b4a5a281da827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture5.prefab using Guid(3c8215a2e7ab319429b4a5a281da827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '9a0f81e7bda6215daa56fecaf5408bd6') in 0.076265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock3.prefab
+  artifactKey: Guid(579e809d2465e864795196e5b0545d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock3.prefab using Guid(579e809d2465e864795196e5b0545d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'fbcf979c72030c66be006bc5893d590b') in 0.104567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture10.prefab
+  artifactKey: Guid(a680ad859bd92a345b6ae6b11c6a4301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture10.prefab using Guid(a680ad859bd92a345b6ae6b11c6a4301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '6664da09b1dcfc7756d63be782201a1d') in 0.097548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture15.prefab
+  artifactKey: Guid(0df7f3e030f1da24a9abe74e81197585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture15.prefab using Guid(0df7f3e030f1da24a9abe74e81197585) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'abef1e51f076259d88032373f0052bf3') in 0.105323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock15.prefab
+  artifactKey: Guid(c0e82ab38938b0a4ab35f65d8981ac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock15.prefab using Guid(c0e82ab38938b0a4ab35f65d8981ac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'c6cad48949bc2ec6c61c33d10c857642') in 0.088912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock12.prefab
+  artifactKey: Guid(73da260fe05fc414da1dbbca90d3030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock12.prefab using Guid(73da260fe05fc414da1dbbca90d3030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '5dd7e6c5cc68a54620e9e7cdf8c047eb') in 0.091775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003322 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture11.prefab
+  artifactKey: Guid(858bcc836e2a98d44ab962addfd772ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture11.prefab using Guid(858bcc836e2a98d44ab962addfd772ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'e9e4d4e22da43f4226701d05d2268c9a') in 0.077175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004663 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock5.prefab
+  artifactKey: Guid(1b25ec5b3aa236f49bb4e00c0b8a5efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock5.prefab using Guid(1b25ec5b3aa236f49bb4e00c0b8a5efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'd123a9d6626bde46ba7500d2444d772c') in 0.076612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001076 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock2.prefab
+  artifactKey: Guid(41059c7f21dd4994d9797364e07a3d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock2.prefab using Guid(41059c7f21dd4994d9797364e07a3d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '79fec56db4e6ba47d3fd8257ea8003d6') in 0.075447 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
