@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/SeniorDesignRhythmGame/[Ll]ibrary/
-/SeniorDesignRhythmGame/[Tt]emp/
-/SeniorDesignRhythmGame/[Oo]bj/
-/SeniorDesignRhythmGame/[Bb]uild/
-/SeniorDesignRhythmGame/[Bb]uilds/
-/SeniorDesignRhythmGame/[Ll]ogs/
-/SeniorDesignRhythmGame/[Uu]ser[Ss]ettings/
+/Main/[Ll]ibrary/
+/Main/[Tt]emp/
+/Main/[Oo]bj/
+/Main/[Bb]uild/
+/Main/[Bb]uilds/
+/Main/[Ll]ogs/
+/Main/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
