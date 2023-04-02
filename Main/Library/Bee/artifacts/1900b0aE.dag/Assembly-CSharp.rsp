@@ -346,6 +346,7 @@
 "Assets/asteroids assets/scripts/ComboHealth.cs"
 "Assets/asteroids assets/scripts/FirstRunScript.cs"
 "Assets/asteroids assets/scripts/flyasteroid.cs"
+"Assets/asteroids assets/scripts/Fullscreen.cs"
 "Assets/asteroids assets/scripts/limitLifetime.cs"
 "Assets/asteroids assets/scripts/MenuManager.cs"
 "Assets/asteroids assets/scripts/SliderScript.cs"
