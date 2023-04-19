@@ -122,6 +122,13 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+<<<<<<< Updated upstream
+=======
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+>>>>>>> Stashed changes
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -329,10 +336,13 @@
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+<<<<<<< Updated upstream
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+=======
+>>>>>>> Stashed changes
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs"

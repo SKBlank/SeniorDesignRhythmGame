@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main
+=======
+C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main
+>>>>>>> Stashed changes

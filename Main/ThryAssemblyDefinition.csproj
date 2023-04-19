@@ -319,6 +319,7 @@
         <HintPath>Z:\unity install\2021.3.18f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
+<<<<<<< Updated upstream
         <HintPath>Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -332,6 +333,21 @@
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+=======
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>Z:\unity install\2021.3.18f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -712,6 +728,7 @@
         <HintPath>Z:\unity install\2021.3.18f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
+<<<<<<< Updated upstream
         <HintPath>Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
@@ -722,6 +739,18 @@
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+=======
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
   </ItemGroup>
   <ItemGroup>

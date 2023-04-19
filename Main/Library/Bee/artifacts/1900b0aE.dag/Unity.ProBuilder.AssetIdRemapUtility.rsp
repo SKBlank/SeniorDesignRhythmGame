@@ -114,6 +114,14 @@
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+<<<<<<< Updated upstream
+=======
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/Phoenix/Documents/GitHub/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+>>>>>>> Stashed changes
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -325,11 +333,14 @@
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"Z:/unity install/2021.3.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+<<<<<<< Updated upstream
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+=======
+>>>>>>> Stashed changes
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"

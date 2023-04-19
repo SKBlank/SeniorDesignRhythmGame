@@ -40,6 +40,7 @@
      <Compile Include="Assets\asteroids assets\scripts\asteroidCatcher.cs" />
      <Compile Include="Assets\asteroids assets\Asteroids\Scripts\Fracture.cs" />
      <Compile Include="Assets\asteroids assets\scripts\limitLifetime.cs" />
+<<<<<<< Updated upstream
      <Compile Include="Assets\asteroids assets\scripts\asteroidspawn.cs" />
      <Compile Include="Assets\asteroids assets\scripts\flyasteroid.cs" />
      <Compile Include="Assets\asteroids assets\scripts\ComboHealth.cs" />
@@ -47,6 +48,15 @@
      <Compile Include="Assets\asteroids assets\timing manager\Instantiater.cs" />
      <Compile Include="Assets\asteroids assets\timing manager\VideoSampler.cs" />
      <Compile Include="Assets\asteroids assets\timing manager\Mover.cs" />
+=======
+     <Compile Include="Assets\asteroids assets\timing manager\VideoSampler.cs" />
+     <Compile Include="Assets\asteroids assets\scripts\asteroidspawn.cs" />
+     <Compile Include="Assets\asteroids assets\scripts\flyasteroid.cs" />
+     <Compile Include="Assets\asteroids assets\timing manager\Mover.cs" />
+     <Compile Include="Assets\asteroids assets\scripts\ComboHealth.cs" />
+     <Compile Include="Assets\asteroids assets\timing manager\Instantiater.cs" />
+     <Compile Include="Assets\asteroids assets\Asteroids\Scripts\ExampleFracture.cs" />
+>>>>>>> Stashed changes
      <None Include="Assets\shaders\_PoiyomiShaders\Shaders\7.3\Pro\Includes\CGI_PoiFrag.cginc" />
      <None Include="Assets\csc.rsp" />
      <None Include="Assets\shaders\_PoiyomiShaders\Shaders\7.3\Pro\Includes\CGI_Poicludes.cginc" />
@@ -762,6 +772,7 @@
         <HintPath>Z:\unity install\2021.3.18f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
+<<<<<<< Updated upstream
         <HintPath>Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
@@ -808,6 +819,54 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>Z:\unity\#my avatars\senior design git\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+=======
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\Phoenix\Documents\GitHub\SeniorDesignRhythmGame\Main\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
   </ItemGroup>
   <ItemGroup>
