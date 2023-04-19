@@ -1,0 +1,2070 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 48925 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\unity install\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker33
+-projectPath
+Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main
+-logFile
+Logs/AssetImportWorker33.log
+-srvPort
+62055
+Successfully changed project path to: Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main
+Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40176] Host "[IP] 172.17.224.1 [Port] 0 [Flags] 2 [Guid] 2150662719 [EditorId] 2150662719 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EVITKSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40176] Host "[IP] 172.17.224.1 [Port] 0 [Flags] 2 [Guid] 2150662719 [EditorId] 2150662719 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EVITKSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path Z:/unity install/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/unity/#my avatars/senior design git/SeniorDesignRhythmGame/Main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8041 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'Z:/unity install/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/unity install/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/unity install/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/unity install/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003006 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002253 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.4 MB). Loaded Objects now: 2394.
+Memory consumption went from 200.2 MB to 198.8 MB.
+Total: 3.641400 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.891500 ms  DeleteObjects: 0.423400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1041ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.4 MB). Loaded Objects now: 2397.
+Memory consumption went from 192.5 MB to 191.1 MB.
+Total: 3.334900 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.756700 ms  DeleteObjects: 0.309300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (946ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2400.
+Memory consumption went from 192.3 MB to 191.0 MB.
+Total: 4.261900 ms (FindLiveObjects: 0.525000 ms CreateObjectMapping: 0.072100 ms MarkObjects: 3.290800 ms  DeleteObjects: 0.372100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2403.
+Memory consumption went from 192.3 MB to 191.0 MB.
+Total: 5.105900 ms (FindLiveObjects: 0.330600 ms CreateObjectMapping: 0.065300 ms MarkObjects: 4.222000 ms  DeleteObjects: 0.486100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2406.
+Memory consumption went from 192.3 MB to 191.0 MB.
+Total: 3.745300 ms (FindLiveObjects: 0.396200 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.923100 ms  DeleteObjects: 0.325500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2409.
+Memory consumption went from 192.2 MB to 190.9 MB.
+Total: 3.667200 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.055100 ms MarkObjects: 3.006600 ms  DeleteObjects: 0.355700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36985.043111 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock7.prefab
+  artifactKey: Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock7.prefab using Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '42698e1e1aa095fd85e13b5212688edc') in 0.326390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.468998 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock7.prefab
+  artifactKey: Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock7.prefab using Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'e4add6d0d1aa3bb6920d264fdc415ebb') in 0.058337 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2420.
+Memory consumption went from 196.4 MB to 195.1 MB.
+Total: 3.480700 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.850900 ms  DeleteObjects: 0.322600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2423.
+Memory consumption went from 196.4 MB to 195.1 MB.
+Total: 3.947500 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.053400 ms MarkObjects: 3.150600 ms  DeleteObjects: 0.472800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.4 MB). Loaded Objects now: 2426.
+Memory consumption went from 196.4 MB to 195.1 MB.
+Total: 3.268400 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.054000 ms MarkObjects: 2.722700 ms  DeleteObjects: 0.283700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2429.
+Memory consumption went from 196.4 MB to 195.1 MB.
+Total: 3.952800 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.055100 ms MarkObjects: 3.053500 ms  DeleteObjects: 0.550600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002100 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2432.
+Memory consumption went from 196.3 MB to 195.0 MB.
+Total: 3.728900 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.050400 ms MarkObjects: 3.030300 ms  DeleteObjects: 0.416300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2435.
+Memory consumption went from 196.5 MB to 195.1 MB.
+Total: 3.572500 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.920300 ms  DeleteObjects: 0.328000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2438.
+Memory consumption went from 196.5 MB to 195.1 MB.
+Total: 3.224800 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.645200 ms  DeleteObjects: 0.308600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2441.
+Memory consumption went from 196.5 MB to 195.1 MB.
+Total: 3.893800 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.052600 ms MarkObjects: 3.114700 ms  DeleteObjects: 0.455400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1067ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2444.
+Memory consumption went from 196.5 MB to 195.2 MB.
+Total: 3.837300 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.066400 ms MarkObjects: 3.116600 ms  DeleteObjects: 0.391400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2447.
+Memory consumption went from 196.4 MB to 195.1 MB.
+Total: 3.628300 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.128800 ms MarkObjects: 2.922800 ms  DeleteObjects: 0.321900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002154 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1202ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 2450.
+Memory consumption went from 196.5 MB to 195.2 MB.
+Total: 5.614800 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.069000 ms MarkObjects: 4.888100 ms  DeleteObjects: 0.402100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1629.355264 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock1.prefab
+  artifactKey: Guid(a028a9caf7ccf2443a238296ded73a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock1.prefab using Guid(a028a9caf7ccf2443a238296ded73a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '6c158a48920f2aadac8940a28d62d548') in 0.315688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock8.prefab
+  artifactKey: Guid(52e5665ed874ab649afee8d6df0ab38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock8.prefab using Guid(52e5665ed874ab649afee8d6df0ab38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'a4d6ad35c0b5a66beba146a5e897491d') in 0.143381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture12.prefab
+  artifactKey: Guid(16165ff48390af44f993e05c19bac115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture12.prefab using Guid(16165ff48390af44f993e05c19bac115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '8302563de6e85797515a9f41574e1234') in 0.234347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture9.prefab
+  artifactKey: Guid(c03bd4a9c21eff74a8771f8e0d70e711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture9.prefab using Guid(c03bd4a9c21eff74a8771f8e0d70e711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '403ab824f40607009a660eac51ac99ff') in 0.211149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture7.prefab
+  artifactKey: Guid(3411c56d2afd5af4a8df22b06f9551e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture7.prefab using Guid(3411c56d2afd5af4a8df22b06f9551e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'eca7a44336892795cffd6d1ee96c1b66') in 0.050756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'c6cea1b75aae4f0b7b3f49fabc2ea0c3') in 0.189093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture8.prefab
+  artifactKey: Guid(0ff42f37aee0fec44bcd79763ae4f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture8.prefab using Guid(0ff42f37aee0fec44bcd79763ae4f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '8754abdcdbd82e1b7b0a1994b9c4f2a3') in 0.074671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock11.prefab
+  artifactKey: Guid(af2725044a76460448d036210c096953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock11.prefab using Guid(af2725044a76460448d036210c096953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Lighting, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Lighting (Realtime), 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Debug Visualization, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Add Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer ThryHeaderLabel with arguments 'Additive Blending, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '419f053c7ae69ab807950fb079c6ecd6') in 0.198865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock15.prefab
+  artifactKey: Guid(c0e82ab38938b0a4ab35f65d8981ac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock15.prefab using Guid(c0e82ab38938b0a4ab35f65d8981ac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'cf48df57bd3ba638d369f923bf4d5005') in 0.043022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture4.prefab
+  artifactKey: Guid(9b4e5fd1d3dc2424fb4276ce71f932ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture4.prefab using Guid(9b4e5fd1d3dc2424fb4276ce71f932ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '5e60ada8e328f1c5014c42660050f197') in 0.069867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock3.prefab
+  artifactKey: Guid(579e809d2465e864795196e5b0545d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock3.prefab using Guid(579e809d2465e864795196e5b0545d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '3903f7d2a093308a20a8d15de22543f3') in 0.091594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture10.prefab
+  artifactKey: Guid(a680ad859bd92a345b6ae6b11c6a4301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture10.prefab using Guid(a680ad859bd92a345b6ae6b11c6a4301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '497eaa2163b54c9f27321ca326300ecf') in 0.069608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/Rock12.prefab
+  artifactKey: Guid(73da260fe05fc414da1dbbca90d3030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/Rock12.prefab using Guid(73da260fe05fc414da1dbbca90d3030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '313177b0c744800205954d6b80fb64eb') in 0.054056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/asteroids assets/Asteroids/Asteroids/RockFracture11.prefab
+  artifactKey: Guid(858bcc836e2a98d44ab962addfd772ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroids assets/Asteroids/Asteroids/RockFracture11.prefab using Guid(858bcc836e2a98d44ab962addfd772ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create material drawer ThryHeaderLabel with arguments 'Base Pass Shading, 13'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'a39c9b105a4f4cc0141444b089735d08') in 0.065564 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -44,6 +44,9 @@
      <Compile Include="Assets\asteroids assets\scripts\flyasteroid.cs" />
      <Compile Include="Assets\asteroids assets\scripts\ComboHealth.cs" />
      <Compile Include="Assets\asteroids assets\Asteroids\Scripts\ExampleFracture.cs" />
+     <Compile Include="Assets\asteroids assets\timing manager\Instantiater.cs" />
+     <Compile Include="Assets\asteroids assets\timing manager\VideoSampler.cs" />
+     <Compile Include="Assets\asteroids assets\timing manager\Mover.cs" />
      <None Include="Assets\shaders\_PoiyomiShaders\Shaders\7.3\Pro\Includes\CGI_PoiFrag.cginc" />
      <None Include="Assets\csc.rsp" />
      <None Include="Assets\shaders\_PoiyomiShaders\Shaders\7.3\Pro\Includes\CGI_Poicludes.cginc" />

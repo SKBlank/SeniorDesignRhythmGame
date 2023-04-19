@@ -347,6 +347,9 @@
 "Assets/asteroids assets/scripts/flyasteroid.cs"
 "Assets/asteroids assets/scripts/limitLifetime.cs"
 "Assets/asteroids assets/scripts/sword.cs"
+"Assets/asteroids assets/timing manager/Instantiater.cs"
+"Assets/asteroids assets/timing manager/Mover.cs"
+"Assets/asteroids assets/timing manager/VideoSampler.cs"
 -langversion:9.0
 
 /deterministic
