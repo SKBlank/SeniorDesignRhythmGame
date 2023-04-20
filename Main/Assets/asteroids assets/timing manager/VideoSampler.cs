@@ -18,6 +18,8 @@ public class VideoSampler : MonoBehaviour
     //The important thing is that triggerEvent() calls spawnObject().
 
     public GameObject videoPlayer;
+    // public Instantiater instantiaterScript;
+  
     private UnityEngine.Video.VideoPlayer videoPlayerScript;
 
     public RenderTexture renderTexture;
@@ -59,7 +61,6 @@ public class VideoSampler : MonoBehaviour
 
 
     // We need to store the Instantiater script so we can call its spawnObject() function
-    private Instantiater instantiaterScript;
    
     // Start is called before the first frame update
     void Start()
@@ -67,12 +68,12 @@ public class VideoSampler : MonoBehaviour
         videoPlayerScript = videoPlayer.GetComponent<VideoPlayer>();
 
         // Find the Instantiater script
-        instantiaterScript = GameObject.Find("Instantiater").GetComponent<Instantiater>();
+        // instantiaterScript = GameObject.Find("Instantiater").GetComponent<Instantiater>();
 
-        if (instantiaterScript == null)
-        {
-            Debug.Log("Could not find Instantiater script");
-        }
+        // if (instantiaterScript == null)
+        // {
+        //     Debug.Log("Could not find Instantiater script");
+        // }
     }
 
     // Update is called once per frame

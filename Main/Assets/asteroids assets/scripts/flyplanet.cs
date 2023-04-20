@@ -4,52 +4,33 @@ using UnityEngine;
 
 public class flyplanet : MonoBehaviour
 {
-    private Transform startPos;
-    private Transform endPos;
-    private float TimeToEndPos = 1.0f;
+    private GameObject attractor;
+    private Vector3 startPos;
+    private float TimeToEndPos = 7.0f;
     private float currentTime = 0.0f;
-    private bool isRunning = true;
+    private Vector3 newScale = new Vector3(5.0F, 5.0F, 5.0F);
 
-     void Start()
+
+
+    void start()
     {
-        // Set end pos y and z to the same as start pos
-        endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
+
     }
 
 
     void Update()
     {
-        if (isRunning)
-        {
-            currentTime += Time.deltaTime;
-            float t = Mathf.Clamp01(currentTime / TimeToEndPos);
-            transform.position = Vector3.Lerp(startPos.position, endPos.position, t);
-
-            if (currentTime >= TimeToEndPos)
-            {
-                currentTime = 0.0f;
-                startPos.position = endPos.position;
-                endPos.position = new Vector3(endPos.position.x + 10, endPos.position.y, endPos.position.z);
-            }  
-        }
+        currentTime += Time.deltaTime;
+        float t = Mathf.Clamp01(currentTime / TimeToEndPos);
+        transform.position = Vector3.Lerp(startPos, attractor.transform.position, t);
+        transform.localScale = Vector3.Lerp(transform.localScale, newScale, t);
     }
 
-    // Set start and end positions for the asteroid object
-    public void SetStartAndEndPositions(Vector3 start, Vector3 end)
+
+    public void setAttractor(GameObject attractor, Vector3 startPos)
     {
-        startPos = new GameObject().transform;
-        startPos.position = start;
-        endPos = new GameObject().transform;
-        endPos.position = new Vector3(end.x, start.y, start.z);
+        this.attractor = attractor;
+        this.startPos = startPos;
     }
 
-    void OnDestroy()
-    {
-        isRunning = false;
-
-        Destroy(startPos.gameObject);
-        Destroy(endPos.gameObject);
-
-        //stop script
-    }
 }

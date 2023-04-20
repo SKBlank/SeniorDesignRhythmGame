@@ -36,11 +36,12 @@ public class planetspawner : MonoBehaviour
 
         // Set unique start and end positions for the flyplanet script
         //star position is the current position of the asteroid
-        Vector3 startPos = transform.position;
+        // Vector3 startPos = transform.position;
 
-        Vector3 endPos = endPoint.transform.position;
+        // Vector3 endPos = endPoint.transform.position;
 
         // flyplanet.SetStartAndEndPositions(startPos, endPos);
+        flyplanet.setAttractor(endPoint, transform.position);
     }
 
     void Update()

@@ -49,18 +49,21 @@ public class flyasteroid : MonoBehaviour
 {
     private Transform startPos;
     private Transform endPos;
-    private float TimeToEndPos = 1.0f;
+    private float TimeToEndPos = 5.0f;
     private float currentTime = 0.0f;
 
      void Start()
     {
         // Set end pos y and z to the same as start pos
-        endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
+        // endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
     }
 
 
     void Update()
     {
+        if(startPos == null || endPos == null)
+            return;
+
         currentTime += Time.deltaTime;
         float t = Mathf.Clamp01(currentTime / TimeToEndPos);
         transform.position = Vector3.Lerp(startPos.position, endPos.position, t);
@@ -69,7 +72,7 @@ public class flyasteroid : MonoBehaviour
         {
             currentTime = 0.0f;
             startPos.position = endPos.position;
-            endPos.position = new Vector3(endPos.position.x + 10, endPos.position.y, endPos.position.z);
+            endPos.position = new Vector3(endPos.position.x + 30, endPos.position.y, endPos.position.z);
         }
     }
 
@@ -84,7 +87,9 @@ public class flyasteroid : MonoBehaviour
 
     void OnDestroy()
     {
-        Destroy(startPos.gameObject);
-        Destroy(endPos.gameObject);
+        if(startPos != null)
+            Destroy(startPos.gameObject);
+        if(endPos != null)
+            Destroy(endPos.gameObject);
     }
 }

@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 4024914263291546}
   - component: {fileID: 205720317299591224}
   - component: {fileID: 4182879556056083133}
+  - component: {fileID: -529065148585480161}
   m_Layer: 0
   m_Name: Venus
   m_TagString: TrackingObject
@@ -158,6 +159,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-529065148585480161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647581975099426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6801fb83a148794e91ec4ae28c4741b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1741346461429698
 GameObject:
   m_ObjectHideFlags: 0
