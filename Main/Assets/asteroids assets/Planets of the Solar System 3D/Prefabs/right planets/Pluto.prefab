@@ -5001,8 +5001,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4103310470163434}
   - component: {fileID: 205659358378571548}
-  - component: {fileID: 4197536903836104266}
   - component: {fileID: 608894467681522280}
+  - component: {fileID: -545207998468090021}
   m_Layer: 0
   m_Name: Pluto
   m_TagString: TrackingObject
@@ -5054,19 +5054,6 @@ LODGroup:
     - renderer: {fileID: 23360761938156044}
     - renderer: {fileID: 199697089879741776}
   m_Enabled: 1
---- !u!135 &4197536903836104266
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901559596380486}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &608894467681522280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5079,6 +5066,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6801fb83a148794e91ec4ae28c4741b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &-545207998468090021
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901559596380486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2482255408471967376
 PrefabInstance:
   m_ObjectHideFlags: 0

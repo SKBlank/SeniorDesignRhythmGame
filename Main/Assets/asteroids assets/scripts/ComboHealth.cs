@@ -23,4 +23,11 @@ public class ComboHealth : MonoBehaviour
         combo = 0;
         print("Combo: " + combo);
     }
+
+    public void PlanetHit()
+    {
+        combo = 0;
+        print("Combo: " + combo);
+        print("Planet Hit");
+    }
 }

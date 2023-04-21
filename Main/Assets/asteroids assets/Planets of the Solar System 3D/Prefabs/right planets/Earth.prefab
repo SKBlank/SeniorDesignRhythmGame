@@ -4917,8 +4917,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4643521465287934}
   - component: {fileID: 205568318585521926}
-  - component: {fileID: 4878998461253096602}
   - component: {fileID: 2358121160790248553}
+  - component: {fileID: 5240211361073114363}
   m_Layer: 0
   m_Name: Earth
   m_TagString: TrackingObject
@@ -4970,19 +4970,6 @@ LODGroup:
     - renderer: {fileID: 23090388759196626}
     - renderer: {fileID: 199987257424377576}
   m_Enabled: 1
---- !u!135 &4878998461253096602
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733945558841920}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2358121160790248553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4995,6 +4982,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6801fb83a148794e91ec4ae28c4741b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &5240211361073114363
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733945558841920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1982611864615202
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,6 +5086,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4643521465287934}
     m_Modifications:
+    - target: {fileID: 6994156255921692063, guid: f42883291be832741859416581dc2386,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6994156256308198432, guid: f42883291be832741859416581dc2386,
         type: 3}
       propertyPath: m_RootOrder

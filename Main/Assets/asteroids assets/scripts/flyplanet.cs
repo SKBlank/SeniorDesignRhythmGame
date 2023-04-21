@@ -24,6 +24,12 @@ public class flyplanet : MonoBehaviour
         float t = Mathf.Clamp01(currentTime / TimeToEndPos);
         transform.position = Vector3.Lerp(startPos, attractor.transform.position, t);
         transform.localScale = Vector3.Lerp(transform.localScale, newScale, t);
+
+        if (currentTime >= TimeToEndPos)
+        {
+            //destroy planet
+            Destroy(gameObject);
+        }
     }
 
 
@@ -32,5 +38,4 @@ public class flyplanet : MonoBehaviour
         this.attractor = attractor;
         this.startPos = startPos;
     }
-
 }

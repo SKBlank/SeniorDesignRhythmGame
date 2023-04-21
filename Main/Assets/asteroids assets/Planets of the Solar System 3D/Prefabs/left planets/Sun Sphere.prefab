@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4538169596089768}
   - component: {fileID: 33217572684835212}
-  - component: {fileID: 135055755564151750}
   - component: {fileID: 23276179730521966}
   - component: {fileID: -1778706226041050360}
+  - component: {fileID: -3887711433037420235}
+  - component: {fileID: -7530895249342222310}
   m_Layer: 0
   m_Name: Sun Sphere
   m_TagString: Untagged
@@ -46,19 +47,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066320961419670}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!135 &135055755564151750
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066320961419670}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &23276179730521966
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -113,6 +101,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6801fb83a148794e91ec4ae28c4741b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &-3887711433037420235
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066320961419670}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &-7530895249342222310
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066320961419670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1708399313684614
 GameObject:
   m_ObjectHideFlags: 0

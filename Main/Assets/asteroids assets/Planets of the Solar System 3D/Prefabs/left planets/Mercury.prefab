@@ -5000,8 +5000,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4620931210112870}
   - component: {fileID: 205527854345052348}
-  - component: {fileID: 2366119673273863367}
   - component: {fileID: -8293986563151140836}
+  - component: {fileID: -4394157356631905690}
+  - component: {fileID: 8462678292179853125}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: TrackingObject
@@ -5053,19 +5054,6 @@ LODGroup:
     - renderer: {fileID: 23557692965381650}
     - renderer: {fileID: 199956874217308870}
   m_Enabled: 1
---- !u!135 &2366119673273863367
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856687845478954}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-8293986563151140836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5078,6 +5066,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6801fb83a148794e91ec4ae28c4741b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &-4394157356631905690
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856687845478954}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &8462678292179853125
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856687845478954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3741252206528857667
 PrefabInstance:
   m_ObjectHideFlags: 0
