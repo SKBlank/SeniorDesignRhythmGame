@@ -18,6 +18,8 @@ public class VideoSampler : MonoBehaviour
     //The important thing is that triggerEvent() calls spawnObject().
 
     public GameObject videoPlayer;
+    // public Instantiater instantiaterScript;
+  
     private UnityEngine.Video.VideoPlayer videoPlayerScript;
 
     public RenderTexture renderTexture;
@@ -38,7 +40,8 @@ public class VideoSampler : MonoBehaviour
 
     public Color LastSampled20;
     public Color LastSampled21;
-    public Color LastSampled22;
+    public Color LastSampled22; //planet
+    public Color LastSampled55; //planet
     public Color LastSampled23;
     public Color LastSampled24;
 
@@ -54,9 +57,10 @@ public class VideoSampler : MonoBehaviour
     public Color LastSampled43;
     public Color LastSampled44;
 
+    
+
 
     // We need to store the Instantiater script so we can call its spawnObject() function
-    private Instantiater instantiaterScript;
    
     // Start is called before the first frame update
     void Start()
@@ -64,19 +68,19 @@ public class VideoSampler : MonoBehaviour
         videoPlayerScript = videoPlayer.GetComponent<VideoPlayer>();
 
         // Find the Instantiater script
-        instantiaterScript = GameObject.Find("Instantiater").GetComponent<Instantiater>();
+        // instantiaterScript = GameObject.Find("Instantiater").GetComponent<Instantiater>();
 
-        if (instantiaterScript == null)
-        {
-            Debug.Log("Could not find Instantiater script");
-        }
+        // if (instantiaterScript == null)
+        // {
+            // Debug.Log("Could not find Instantiater script");
+        // }
     }
 
     // Update is called once per frame
     void Update()
     {
         long currentFrame = videoPlayerScript.frame;
-        //Debug.Log("Sampling:" + currentFrame);
+        // Debug.Log("Sampling:" + currentFrame);
         sampleFrame(currentFrame);
     }
 
@@ -104,7 +108,10 @@ public class VideoSampler : MonoBehaviour
 
         Color C20 = tex.GetPixel(13, 63);
         Color C21 = tex.GetPixel(38, 63);
-        Color C22 = tex.GetPixel(63, 63);
+        //planets////////////////////////
+        Color C22 = tex.GetPixel(56, 63);
+        Color C55 = tex.GetPixel(70, 63);
+        /////////////////////////////////
         Color C23 = tex.GetPixel(88, 63);
         Color C24 = tex.GetPixel(113, 63);
 
@@ -225,6 +232,14 @@ public class VideoSampler : MonoBehaviour
                 triggerEvent(22);
             }
         }
+        if (C55 != LastSampled55)
+        {
+            LastSampled55 = C55;
+            if (C55 != Color.black)
+            {
+                triggerEvent(55);
+            }
+        }
         if (C23 != LastSampled23)
         {
             LastSampled23 = C23;
@@ -331,157 +346,163 @@ public class VideoSampler : MonoBehaviour
     switch(coord)
     {
         case 00:
-            Debug.Log("00");
+            // Debug.Log("00");
       
             gridObjects[0].SetActive(true);
             gridObjects[0].SetActive(false);
             break;
         case 01:
-            Debug.Log("01");
+            // Debug.Log("01");
 
             gridObjects[1].SetActive(true);
             gridObjects[1].SetActive(false);
             break;  
         case 02:
-            Debug.Log("02");
+            // Debug.Log("02");
           
             gridObjects[2].SetActive(true);
             gridObjects[2].SetActive(false);
             break;
         case 03:
-            Debug.Log("03");
+            // Debug.Log("03");
           
             gridObjects[3].SetActive(true);
             gridObjects[3].SetActive(false);
             break;
         case 04:
-            Debug.Log("04");
+            // Debug.Log("04");
           
             gridObjects[4].SetActive(true);
             gridObjects[4].SetActive(false);
             break;
         case 10:
-            Debug.Log("10");
+            // Debug.Log("10");
           
             gridObjects[5].SetActive(true);
             gridObjects[5].SetActive(false);
             break;
         case 11:
-            Debug.Log("11");
+            // Debug.Log("11");
           
             gridObjects[6].SetActive(true);
             gridObjects[6].SetActive(false);
             break;
         case 12:
-            Debug.Log("12");
+            // Debug.Log("12");
           
             gridObjects[7].SetActive(true);
             gridObjects[7].SetActive(false);
             break;
         case 13:
-            Debug.Log("13");
+            // Debug.Log("13");
           
             gridObjects[8].SetActive(true);
             gridObjects[8].SetActive(false);
             break;
         case 14:
-            Debug.Log("14");
+            // Debug.Log("14");
           
             gridObjects[9].SetActive(true);
             gridObjects[9].SetActive(false);
             break;
         case 20:
-            Debug.Log("20");
+            // Debug.Log("20");
           
             gridObjects[10].SetActive(true);
             gridObjects[10].SetActive(false);
             break;
         case 21:
-            Debug.Log("21");
+            // Debug.Log("21");
           
             gridObjects[11].SetActive(true);
             gridObjects[11].SetActive(false);
             break;
-        case 22:
-            Debug.Log("22");
-          
-            gridObjects[12].SetActive(true);
-            gridObjects[12].SetActive(false);
-            break;
         case 23:
-            Debug.Log("23");
+            // Debug.Log("23");
           
             gridObjects[13].SetActive(true);
             gridObjects[13].SetActive(false);
             break;
         case 24:    
-            Debug.Log("24");
+            // Debug.Log("24");
           
             gridObjects[14].SetActive(true);
             gridObjects[14].SetActive(false);
             break;
         case 30:
-            Debug.Log("30");
+            // Debug.Log("30");
           
             gridObjects[15].SetActive(true);
             gridObjects[15].SetActive(false);
             break;
         case 31:
-            Debug.Log("31");
+            // Debug.Log("31");
           
             gridObjects[16].SetActive(true);
             gridObjects[16].SetActive(false);
             break;
         case 32:
-            Debug.Log("32");
+            // Debug.Log("32");
           
             gridObjects[17].SetActive(true);
             gridObjects[17].SetActive(false);
             break;
         case 33:
-            Debug.Log("33");
+            // Debug.Log("33");
           
             gridObjects[18].SetActive(true);
             gridObjects[18].SetActive(false);
             break;
         case 34:
-            Debug.Log("34");
+            // Debug.Log("34");
           
             gridObjects[19].SetActive(true);
             gridObjects[19].SetActive(false);
             break;
         case 40:
-            Debug.Log("40");
+            // Debug.Log("40");
           
             gridObjects[20].SetActive(true);
             gridObjects[20].SetActive(false);
             break;
         case 41:
-            Debug.Log("41");
+            // Debug.Log("41");
           
             gridObjects[21].SetActive(true);
             gridObjects[21].SetActive(false);
             break;
         case 42:
-            Debug.Log("42");
+            // Debug.Log("42");
           
             gridObjects[22].SetActive(true);
             gridObjects[22].SetActive(false);
             break;
         case 43:
-            Debug.Log("43");
+            // Debug.Log("43");
           
             gridObjects[23].SetActive(true);
             gridObjects[23].SetActive(false);
             break;
         case 44:
-            Debug.Log("44");
+            // Debug.Log("44");
           
             gridObjects[24].SetActive(true);
             gridObjects[24].SetActive(false);
             break;
+        case 22:
+            // Debug.Log("22");
+          
+            gridObjects[12].SetActive(true);
+            gridObjects[12].SetActive(false);
+            break;
+        case 55:
+            // Debug.Log("55");
+          
+            gridObjects[25].SetActive(true);
+            gridObjects[25].SetActive(false);
+            break;
         default:
-            Debug.Log("Invalid Coordinate");
+            // Debug.Log("Invalid Coordinate");
             break;
     }
    }

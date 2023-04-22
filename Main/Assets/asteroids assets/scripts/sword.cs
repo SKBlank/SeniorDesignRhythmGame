@@ -7,7 +7,7 @@ public class sword : MonoBehaviour
     public ComboHealth comboHealth;
     public AudioSource swordSound;
 
-    void OnCollisionEnter(Collision targetObj) 
+    void OnTriggerEnter(Collider targetObj) 
     {
         if (targetObj.gameObject.tag == "Enemy")
         {

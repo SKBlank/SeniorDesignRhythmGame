@@ -22,7 +22,7 @@ public class asteroidspawn : MonoBehaviour
 
     void spawnAsteroid()
     {
-        print("spawned aster");
+        // print("spawned aster");
         // Debug.Log("spawned aster");
         // Vector3 randomPosition = new Vector3(0, Random.Range(-3, 3), Random.Range(-3, 3));
         // Vector3 randomPosition = new Vector3(0, 0, 0);
