@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -6084941573963494365}
   m_Layer: 0
   m_Name: Rock5 1
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

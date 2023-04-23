@@ -11,6 +11,7 @@ public class lightUpStar : MonoBehaviour
     {
         staroutlines[0].SetActive(true);
         staroutlines[1].SetActive(false);
+        staroutlines[2].SetActive(false);
     }
 
     // Update is called once per frame
@@ -20,11 +21,13 @@ public class lightUpStar : MonoBehaviour
         {
             staroutlines[0].SetActive(false);
             staroutlines[1].SetActive(true);
+            staroutlines[2].SetActive(true);
         }
         if (Input.GetKeyUp(switchKey))
         {
             staroutlines[0].SetActive(true);
             staroutlines[1].SetActive(false);
+            staroutlines[2].SetActive(false);
         }
     }
 }
