@@ -16,7 +16,7 @@ public class HoldSpawner : MonoBehaviour
 
     void OnEnable()
     {
-        print("enabled");
+        // print("enabled");
         if (!started)
         {
             started = true;
@@ -27,7 +27,7 @@ public class HoldSpawner : MonoBehaviour
     void OnDisable()
     {
        started = false;
-       print("disabled");
+    //    print("disabled");
     }
 
     void spawnAsteroid(int prefabIndex)
