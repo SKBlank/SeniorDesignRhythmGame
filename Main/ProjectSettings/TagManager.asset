@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - sword
+  - TrackingObject
+  - Middle
+  - Arrow
+  - HoldArrow
   layers:
   - Default
   - TransparentFX
