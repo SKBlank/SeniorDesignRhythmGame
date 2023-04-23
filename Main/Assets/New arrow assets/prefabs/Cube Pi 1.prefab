@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 6173470029461001903}
   m_Layer: 0
   m_Name: Cube Pi 1
-  m_TagString: Enemy
+  m_TagString: HoldArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
