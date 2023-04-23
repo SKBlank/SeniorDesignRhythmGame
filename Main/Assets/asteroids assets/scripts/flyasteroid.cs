@@ -9,14 +9,21 @@ public class flyasteroid : MonoBehaviour
     private float TimeToEndPos = 5.0f;
     private float currentTime = 0.0f;
 
+    private float startTime;
+    private float endTime;
+    private float lifespan;
+
      void Start()
     {
         // Set end pos y and z to the same as start pos
         // endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
+        //Print my start time
+        startTime = Time.time;
+        //print("A: " + startTime);
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         if(startPos == null || endPos == null)
             return;
@@ -44,6 +51,9 @@ public class flyasteroid : MonoBehaviour
 
     void OnDestroy()
     {
+        endTime = Time.time;
+        lifespan = endTime - startTime;
+        print("Asteroid lifespan: " + lifespan);
         if(startPos != null)
             Destroy(startPos.gameObject);
         if(endPos != null)
