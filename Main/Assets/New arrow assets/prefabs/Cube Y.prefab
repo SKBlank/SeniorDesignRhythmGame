@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 5145715190540105508}
   - component: {fileID: 5145715190540105511}
   - component: {fileID: -6765099707163053581}
-  - component: {fileID: 1690392720754998961}
+  - component: {fileID: -2397713968645753188}
   m_Layer: 0
   m_Name: Cube Y
   m_TagString: Enemy
@@ -275,7 +275,7 @@ MonoBehaviour:
   - {fileID: 3606340279829517473, guid: a67dfd18e75fd9040924dbc21d8dfbc9, type: 3}
   - {fileID: 7642089964585371861, guid: 94c1c34b23e63a249b365529586fd210, type: 3}
   - {fileID: 2194794745080136896, guid: 1fda6d06682b82a46a5d2ba08ee319a3, type: 3}
---- !u!114 &1690392720754998961
+--- !u!114 &-2397713968645753188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -284,6 +284,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5145715190540105510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b95e1993aab7e704182749154ca42eb3, type: 3}
+  m_Script: {fileID: 11500000, guid: 6da63c1068b1a21469698501f0f5349e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

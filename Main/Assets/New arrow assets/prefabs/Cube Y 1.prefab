@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 431575828888446559}
   - component: {fileID: 431575828888446558}
   - component: {fileID: 431575828888446557}
-  - component: {fileID: 6188359737809235915}
+  - component: {fileID: 3989736215823303262}
   m_Layer: 0
   m_Name: Cube Y 1
   m_TagString: Enemy
@@ -99,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6188359737809235915
+--- !u!114 &3989736215823303262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 431575828888446556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b95e1993aab7e704182749154ca42eb3, type: 3}
+  m_Script: {fileID: 11500000, guid: 6da63c1068b1a21469698501f0f5349e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &431575828937591185

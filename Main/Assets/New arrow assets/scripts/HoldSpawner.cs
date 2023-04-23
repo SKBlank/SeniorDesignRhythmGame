@@ -6,6 +6,7 @@ public class HoldSpawner : MonoBehaviour
 {
     public GameObject[] asteroids;
     public GameObject endPoint;
+    public GameObject catcher;
     public int spawnFrequency = 30;
     private bool started = false;
     private int frameCount = 0; 
@@ -33,13 +34,9 @@ public class HoldSpawner : MonoBehaviour
     void spawnAsteroid(int prefabIndex)
     {
         GameObject asteroidInstance = Instantiate(asteroids[prefabIndex], transform.position, Quaternion.identity);
-        flyasteroid flyasteroid = asteroidInstance.GetComponent<flyasteroid>();
+        flyArrow flyArrow = asteroidInstance.GetComponent<flyArrow>();
 
-        Vector3 startPos = transform.position;
-
-        Vector3 endPos = endPoint.transform.position;
-
-        flyasteroid.SetStartAndEndPositions(startPos, endPos);
+        flyArrow.SetStartAndEndPositions(gameObject, endPoint, catcher);
     }
 
 

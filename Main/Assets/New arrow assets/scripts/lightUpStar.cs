@@ -10,6 +10,7 @@ public class lightUpStar : MonoBehaviour
     void Start()
     {
         staroutlines[0].SetActive(true);
+        staroutlines[1].SetActive(false);
     }
 
     // Update is called once per frame

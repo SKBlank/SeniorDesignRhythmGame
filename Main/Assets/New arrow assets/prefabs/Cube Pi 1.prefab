@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 3077767965469028233}
   - component: {fileID: 3077767965469028246}
   - component: {fileID: 3077767965469028247}
-  - component: {fileID: 891956679752438361}
+  - component: {fileID: -2173775925539064041}
   m_Layer: 0
   m_Name: Cube Pi 1
   m_TagString: Enemy
@@ -246,7 +246,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &891956679752438361
+--- !u!114 &-2173775925539064041
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -255,6 +255,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3077767965469028244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b95e1993aab7e704182749154ca42eb3, type: 3}
+  m_Script: {fileID: 11500000, guid: 6da63c1068b1a21469698501f0f5349e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
