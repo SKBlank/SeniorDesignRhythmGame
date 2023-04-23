@@ -11,16 +11,22 @@ public class flyArrow : MonoBehaviour
     private float TimeToEndPos = 5.0f;
     private float currentTime = 0.0f;
 
+    private float startTime;
+    private float endTime;
+
      void Start()
     {
         //find a game object named "catcher"
         catcher = GameObject.Find("catcher");
         // Set end pos y and z to the same as start pos
         // endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
+
+        startTime = Time.time;
+
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         if(startPos == null || endPos == null)
             return;
@@ -53,4 +59,10 @@ public class flyArrow : MonoBehaviour
     //     if(endPos != null)
     //         Destroy(endPos.gameObject);
     // }
+
+    void OnDestroy()
+    {
+        endTime = Time.time;
+        //print("Arrow lifespan: " + (endTime - startTime));
+    }
 }
