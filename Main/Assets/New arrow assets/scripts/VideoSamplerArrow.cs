@@ -23,6 +23,7 @@ public class VideoSamplerArrow : MonoBehaviour
     private UnityEngine.Video.VideoPlayer videoPlayerScript;
 
     public RenderTexture renderTexture;
+    public float brightnessThreshold = 0.1f;
 
     public GameObject[] gridObjects;
 
@@ -57,6 +58,38 @@ public class VideoSamplerArrow : MonoBehaviour
     public Color LastSampled43;
     public Color LastSampled44;
 
+    private bool seenBlack00;
+    private bool seenBlack01;
+    private bool seenBlack02;
+    private bool seenBlack03;
+    private bool seenBlack04;
+
+    private bool seenBlack10;
+    private bool seenBlack11;
+    private bool seenBlack12;
+    private bool seenBlack13;
+    private bool seenBlack14;
+
+    private bool seenBlack20;
+    private bool seenBlack21;
+    private bool seenBlack22;
+    private bool seenBlack55;
+    private bool seenBlack23;
+    private bool seenBlack24;
+
+    private bool seenBlack30;
+    private bool seenBlack31;
+    private bool seenBlack32;
+    private bool seenBlack33;
+    private bool seenBlack34;
+
+    private bool seenBlack40;
+    private bool seenBlack41;
+    private bool seenBlack42;
+    private bool seenBlack43;
+    private bool seenBlack44;
+
+
     
 
 
@@ -66,6 +99,38 @@ public class VideoSamplerArrow : MonoBehaviour
     void Start()
     {
         videoPlayerScript = videoPlayer.GetComponent<VideoPlayer>();
+
+        seenBlack00 = false;
+        seenBlack01 = false;
+        seenBlack02 = false;
+        seenBlack03 = false;
+        seenBlack04 = false;
+
+        seenBlack10 = false;
+        seenBlack11 = false;
+        seenBlack12 = false;
+        seenBlack13 = false;
+        seenBlack14 = false;
+
+        seenBlack20 = false;
+        seenBlack21 = false;
+        seenBlack22 = false;
+        seenBlack55 = false;
+        seenBlack23 = false;
+        seenBlack24 = false;
+
+        seenBlack30 = false;
+        seenBlack31 = false;
+        seenBlack32 = false;
+        seenBlack33 = false;
+        seenBlack34 = false;
+        
+        seenBlack40 = false;
+        seenBlack41 = false;
+        seenBlack42 = false;
+        seenBlack43 = false;
+        seenBlack44 = false;
+
 
         // Find the Instantiater script
         // instantiaterScript = GameObject.Find("Instantiater").GetComponent<Instantiater>();
@@ -109,7 +174,8 @@ public class VideoSamplerArrow : MonoBehaviour
         Color C20 = tex.GetPixel(13, 63);
         Color C21 = tex.GetPixel(38, 63);
         //planets////////////////////////
-        Color C22 = tex.GetPixel(63, 63);
+        Color C22 = tex.GetPixel(56, 63);
+        Color C55 = tex.GetPixel(70, 63);
         /////////////////////////////////
         Color C23 = tex.GetPixel(88, 63);
         Color C24 = tex.GetPixel(113, 63);
@@ -127,368 +193,422 @@ public class VideoSamplerArrow : MonoBehaviour
         Color C44 = tex.GetPixel(113, 13);
 
 
-        if (C00 != LastSampled00)
+        
+        if (seenBlack00 == false)
         {
-            LastSampled00 = C00;
-            if (C00 != Color.black)
+            if (Color.black == C00)
             {
-                triggerEvent(00);
+                seenBlack00 = true;
             }
         }
-        if (C01 != LastSampled01)
+        else
         {
-            LastSampled01 = C01;
-            if (C01 != Color.black)
+            if (C00.r > brightnessThreshold || C00.g > brightnessThreshold || C00.b > brightnessThreshold)
             {
-                triggerEvent(01);
+                gridObjects[0].SetActive(true);
+                gridObjects[0].SetActive(false);
+                seenBlack00 = false;
             }
         }
-        if (C02 != LastSampled02)
+        if (seenBlack01 == false)
         {
-            LastSampled02 = C02;
-            if (C02 != Color.black)
+            if (Color.black == C01)
             {
-                triggerEvent(02);
+                seenBlack01 = true;
             }
         }
-        if (C03 != LastSampled03)
+        else
         {
-            LastSampled03 = C03;
-            if (C03 != Color.black)
+            if (C01.r > brightnessThreshold || C01.g > brightnessThreshold || C01.b > brightnessThreshold)
             {
-                triggerEvent(03);
+                gridObjects[1].SetActive(true);
+                gridObjects[1].SetActive(false);
+                seenBlack01 = false;
             }
         }
-        if (C04 != LastSampled04)
+        if (seenBlack02 == false)
         {
-            LastSampled04 = C04;
-            if (C04 != Color.black)
+            if (Color.black == C02)
             {
-                triggerEvent(04);
+                seenBlack02 = true;
             }
         }
-        if (C10 != LastSampled10)
+        else
         {
-            LastSampled10 = C10;
-            if (C10 != Color.black)
+            if (C02.r > brightnessThreshold || C02.g > brightnessThreshold || C02.b > brightnessThreshold)
             {
-                triggerEvent(10);
+                gridObjects[2].SetActive(true);
+                gridObjects[2].SetActive(false);
+                seenBlack02 = false;
             }
         }
-        if (C11 != LastSampled11)
+        if (seenBlack03 == false)
         {
-            LastSampled11 = C11;
-            if (C11 != Color.black)
+            if (Color.black == C03)
             {
-                triggerEvent(11);
+                seenBlack03 = true;
             }
         }
-        if (C12 != LastSampled12)
+        else
         {
-            LastSampled12 = C12;
-            if (C12 != Color.black)
+            if (C03.r > brightnessThreshold || C03.g > brightnessThreshold || C03.b > brightnessThreshold)
             {
-                triggerEvent(12);
+                gridObjects[3].SetActive(true);
+                gridObjects[3].SetActive(false);
+                seenBlack03 = false;
             }
         }
-        if (C13 != LastSampled13)
+        if (seenBlack04 == false)
         {
-            LastSampled13 = C13;
-            if (C13 != Color.black)
+            if (Color.black == C04)
             {
-                triggerEvent(13);
+                seenBlack04 = true;
             }
         }
-        if (C14 != LastSampled14)
+        else
         {
-            LastSampled14 = C14;
-            if (C14 != Color.black)
+            if (C04.r > brightnessThreshold || C04.g > brightnessThreshold || C04.b > brightnessThreshold)
             {
-                triggerEvent(14);
+                gridObjects[4].SetActive(true);
+                gridObjects[4].SetActive(false);
+                seenBlack04 = false;
             }
         }
-        if (C20 != LastSampled20)
+        if (seenBlack10 == false)
         {
-            LastSampled20 = C20;
-            if (C20 != Color.black)
+            if (Color.black == C10)
             {
-                triggerEvent(20);
+                seenBlack10 = true;
             }
         }
-        if (C21 != LastSampled21)
+        else
         {
-            LastSampled21 = C21;
-            if (C21 != Color.black)
+            if (C10.r > brightnessThreshold || C10.g > brightnessThreshold || C10.b > brightnessThreshold)
             {
-                triggerEvent(21);
+                gridObjects[5].SetActive(true);
+                gridObjects[5].SetActive(false);
+                seenBlack10 = false;
             }
         }
-        if (C22 != LastSampled22)
+        if (seenBlack11 == false)
         {
-            LastSampled22 = C22;
-            if (C22 != Color.black)
+            if (Color.black == C11)
             {
-                triggerEvent(22);
+                seenBlack11 = true;
             }
         }
-        if (C23 != LastSampled23)
+        else
         {
-            LastSampled23 = C23;
-            if (C23 != Color.black)
+            if (C11.r > brightnessThreshold || C11.g > brightnessThreshold || C11.b > brightnessThreshold)
             {
-                triggerEvent(23);
+                gridObjects[6].SetActive(true);
+                gridObjects[6].SetActive(false);
+                seenBlack11 = false;
             }
         }
-        if (C24 != LastSampled24)
+        if (seenBlack12 == false)
         {
-            LastSampled24 = C24;
-            if (C24 != Color.black)
+            if (Color.black == C12)
             {
-                triggerEvent(24);
+                seenBlack12 = true;
+                gridObjects[7].SetActive(false);
             }
         }
-        if (C30 != LastSampled30)
+        else
         {
-            LastSampled30 = C30;
-            if (C30 != Color.black)
+            if (C12.r > brightnessThreshold || C12.g > brightnessThreshold || C12.b > brightnessThreshold)
             {
-                triggerEvent(30);
+                gridObjects[7].SetActive(true);
+                seenBlack12 = false;
             }
         }
-        if (C31 != LastSampled31)
+        if (seenBlack13 == false)
         {
-            LastSampled31 = C31;
-            if (C31 != Color.black)
+            if (Color.black == C13)
             {
-                triggerEvent(31);
+                seenBlack13 = true;
             }
         }
-        if (C32 != LastSampled32)
+        else
         {
-            LastSampled32 = C32;
-            if (C32 != Color.black)
+            if (C13.r > brightnessThreshold || C13.g > brightnessThreshold || C13.b > brightnessThreshold)
             {
-                triggerEvent(32);
+                gridObjects[8].SetActive(true);
+                gridObjects[8].SetActive(false);
+                seenBlack13 = false;
             }
         }
-        if (C33 != LastSampled33)
+        if (seenBlack14 == false)
         {
-            LastSampled33 = C33;
-            if (C33 != Color.black)
+            if (Color.black == C14)
             {
-                triggerEvent(33);
+                seenBlack14 = true;
             }
         }
-        if (C34 != LastSampled34)
+        else
         {
-            LastSampled34 = C34;
-            if (C34 != Color.black)
+            if (C14.r > brightnessThreshold || C14.g > brightnessThreshold || C14.b > brightnessThreshold)
             {
-                triggerEvent(34);
+                gridObjects[9].SetActive(true);
+                gridObjects[9].SetActive(false);
+                seenBlack14 = false;
             }
         }
-        if (C40 != LastSampled40)
+        if (seenBlack20 == false)
         {
-            LastSampled40 = C40;
-            if (C40 != Color.black)
+            if (Color.black == C20)
             {
-                triggerEvent(40);
+                seenBlack20 = true;
             }
         }
-        if (C41 != LastSampled41)
+        else
         {
-            LastSampled41 = C41;
-            if (C41 != Color.black)
+            if (C20.r > brightnessThreshold || C20.g > brightnessThreshold || C20.b > brightnessThreshold)
             {
-                triggerEvent(41);
+                gridObjects[10].SetActive(true);
+                gridObjects[10].SetActive(false);
+                seenBlack20 = false;
             }
         }
-        if (C42 != LastSampled42)
+        if (seenBlack21 == false)
         {
-            LastSampled42 = C42;
-            if (C42 != Color.black)
+            if (Color.black == C21)
             {
-                triggerEvent(42);
+                seenBlack21 = true;
             }
         }
-        if (C43 != LastSampled43)
+        else
         {
-            LastSampled43 = C43;
-            if (C43 != Color.black)
+            if (C21.r > brightnessThreshold || C21.g > brightnessThreshold || C21.b > brightnessThreshold)
             {
-                triggerEvent(43);
+                gridObjects[11].SetActive(true);
+                gridObjects[11].SetActive(false);
+                seenBlack21 = false;
             }
         }
-        if (C44 != LastSampled44)
+        if (seenBlack22 == false)
         {
-            LastSampled44 = C44;
-            if (C44 != Color.black)
+            if (Color.black == C22)
             {
-                triggerEvent(44);
+                seenBlack22 = true;
             }
         }
-
-
-
-   }
-
-   void triggerEvent(int coord)
-   {
-    switch(coord)
-    {
-        case 00:
-            // Debug.Log("00");
-      
-            gridObjects[0].SetActive(true);
-            gridObjects[0].SetActive(false);
-            break;
-        case 01:
-            // Debug.Log("01");
-
-            gridObjects[1].SetActive(true);
-            gridObjects[1].SetActive(false);
-            break;  
-        case 02:
-            // Debug.Log("02");
-          
-            gridObjects[2].SetActive(true);
-            gridObjects[2].SetActive(false);
-            break;
-        case 03:
-            // Debug.Log("03");
-          
-            gridObjects[3].SetActive(true);
-            gridObjects[3].SetActive(false);
-            break;
-        case 04:
-            // Debug.Log("04");
-          
-            gridObjects[4].SetActive(true);
-            gridObjects[4].SetActive(false);
-            break;
-        case 10:
-            // Debug.Log("10");
-          
-            gridObjects[5].SetActive(true);
-            gridObjects[5].SetActive(false);
-            break;
-        case 11:
-            // Debug.Log("11");
-          
-            gridObjects[6].SetActive(true);
-            gridObjects[6].SetActive(false);
-            break;
-        case 12:
-            // Debug.Log("12");
-          
-            gridObjects[7].SetActive(true);
-            gridObjects[7].SetActive(false);
-            break;
-        case 13:
-            // Debug.Log("13");
-          
-            gridObjects[8].SetActive(true);
-            gridObjects[8].SetActive(false);
-            break;
-        case 14:
-            // Debug.Log("14");
-          
-            gridObjects[9].SetActive(true);
-            gridObjects[9].SetActive(false);
-            break;
-        case 20:
-            // Debug.Log("20");
-          
-            gridObjects[10].SetActive(true);
-            gridObjects[10].SetActive(false);
-            break;
-        case 21:
-            // Debug.Log("21");
-          
-            gridObjects[11].SetActive(true);
-            gridObjects[11].SetActive(false);
-            break;
-        case 23:
-            // Debug.Log("23");
-          
-            gridObjects[13].SetActive(true);
-            gridObjects[13].SetActive(false);
-            break;
-        case 24:    
-            // Debug.Log("24");
-          
-            gridObjects[14].SetActive(true);
-            gridObjects[14].SetActive(false);
-            break;
-        case 30:
-            // Debug.Log("30");
-          
-            gridObjects[15].SetActive(true);
-            gridObjects[15].SetActive(false);
-            break;
-        case 31:
-            // Debug.Log("31");
-          
-            gridObjects[16].SetActive(true);
-            gridObjects[16].SetActive(false);
-            break;
-        case 32:
-            // Debug.Log("32");
-          
-            gridObjects[17].SetActive(true);
-            gridObjects[17].SetActive(false);
-            break;
-        case 33:
-            // Debug.Log("33");
-          
-            gridObjects[18].SetActive(true);
-            gridObjects[18].SetActive(false);
-            break;
-        case 34:
-            // Debug.Log("34");
-          
-            gridObjects[19].SetActive(true);
-            gridObjects[19].SetActive(false);
-            break;
-        case 40:
-            // Debug.Log("40");
-          
-            gridObjects[20].SetActive(true);
-            gridObjects[20].SetActive(false);
-            break;
-        case 41:
-            // Debug.Log("41");
-          
-            gridObjects[21].SetActive(true);
-            gridObjects[21].SetActive(false);
-            break;
-        case 42:
-            // Debug.Log("42");
-          
-            gridObjects[22].SetActive(true);
-            gridObjects[22].SetActive(false);
-            break;
-        case 43:
-            // Debug.Log("43");
-          
-            gridObjects[23].SetActive(true);
-            gridObjects[23].SetActive(false);
-            break;
-        case 44:
-            // Debug.Log("44");
-          
-            gridObjects[24].SetActive(true);
-            gridObjects[24].SetActive(false);
-            break;
-        case 22:
-            // Debug.Log("22");
-          
-            gridObjects[12].SetActive(true);
-            gridObjects[12].SetActive(false);
-            break;
-        default:
-            // Debug.Log("Invalid Coordinate");
-            break;
+        else
+        {
+            if (C22.r > brightnessThreshold || C22.g > brightnessThreshold || C22.b > brightnessThreshold)
+            {
+                gridObjects[12].SetActive(true);
+                gridObjects[12].SetActive(false);
+                seenBlack22 = false;
+            }
+        }
+        if (seenBlack23 == false)
+        {
+            if (Color.black == C23)
+            {
+                seenBlack23 = true;
+            }
+        }
+        else
+        {
+            if (C23.r > brightnessThreshold || C23.g > brightnessThreshold || C23.b > brightnessThreshold)
+            {
+                gridObjects[13].SetActive(true);
+                gridObjects[13].SetActive(false);
+                seenBlack23 = false;
+            }
+        }
+        if (seenBlack24 == false)
+        {
+            if (Color.black == C24)
+            {
+                seenBlack24 = true;
+            }
+        }
+        else
+        {
+            if (C24.r > brightnessThreshold || C24.g > brightnessThreshold || C24.b > brightnessThreshold)
+            {
+                gridObjects[14].SetActive(true);
+                gridObjects[14].SetActive(false);
+                seenBlack24 = false;
+            }
+        }
+        if (seenBlack30 == false)
+        {
+            if (Color.black == C30)
+            {
+                seenBlack30 = true;
+                gridObjects[15].SetActive(false);
+            }
+        }
+        else
+        {
+            if (C30.r > brightnessThreshold || C30.g > brightnessThreshold || C30.b > brightnessThreshold)
+            {
+                gridObjects[15].SetActive(true);
+                seenBlack30 = false;
+            }
+        }
+        if (seenBlack31 == false)
+        {
+            if (Color.black == C31)
+            {
+                seenBlack31 = true;
+            }
+        }
+        else
+        {
+            if (C31.r > brightnessThreshold || C31.g > brightnessThreshold || C31.b > brightnessThreshold)
+            {
+                gridObjects[16].SetActive(true);
+                gridObjects[16].SetActive(false);
+                seenBlack31 = false;
+            }
+        }
+        if (seenBlack32 == false)
+        {
+            if (Color.black == C32)
+            {
+                seenBlack32 = true;
+            }
+        }
+        else
+        {
+            if (C32.r > brightnessThreshold || C32.g > brightnessThreshold || C32.b > brightnessThreshold)
+            {
+                gridObjects[17].SetActive(true);
+                gridObjects[17].SetActive(false);
+                seenBlack32 = false;
+            }
+        }
+        if (seenBlack33 == false)
+        {
+            if (Color.black == C33)
+            {
+                seenBlack33 = true;
+            }
+        }
+        else
+        {
+            if (C33.r > brightnessThreshold || C33.g > brightnessThreshold || C33.b > brightnessThreshold)
+            {
+                gridObjects[18].SetActive(true);
+                gridObjects[18].SetActive(false);
+                seenBlack33 = false;
+            }
+        }
+        if (seenBlack34 == false)
+        {
+            if (Color.black == C34)
+            {
+                seenBlack34 = true;
+                gridObjects[19].SetActive(false);
+            }
+        }
+        else
+        {
+            if (C34.r > brightnessThreshold || C34.g > brightnessThreshold || C34.b > brightnessThreshold)
+            {
+                gridObjects[19].SetActive(true);
+                seenBlack34 = false;
+            }
+        }
+        if (seenBlack40 == false)
+        {
+            if (Color.black == C40)
+            {
+                seenBlack40 = true;
+                gridObjects[20].SetActive(false);
+            }
+        }
+        else
+        {
+            if (C40.r > brightnessThreshold || C40.g > brightnessThreshold || C40.b > brightnessThreshold)
+            {
+                gridObjects[20].SetActive(true);
+                seenBlack40 = false;
+            }
+        }
+        if (seenBlack41 == false)
+        {
+            if (Color.black == C41)
+            {
+                seenBlack41 = true;
+            }
+        }
+        else
+        {
+            if (C41.r > brightnessThreshold || C41.g > brightnessThreshold || C41.b > brightnessThreshold)
+            {
+                gridObjects[21].SetActive(true);
+                gridObjects[21].SetActive(false);
+                seenBlack41 = false;
+            }
+        }
+        if (seenBlack42 == false)
+        {
+            if (Color.black == C42)
+            {
+                seenBlack42 = true;
+            }
+        }
+        else
+        {
+            if (C42.r > brightnessThreshold || C42.g > brightnessThreshold || C42.b > brightnessThreshold)
+            {
+                gridObjects[22].SetActive(true);
+                gridObjects[22].SetActive(false);
+                seenBlack42 = false;
+            }
+        }
+        if (seenBlack43 == false)
+        {
+            if (Color.black == C43)
+            {
+                seenBlack43 = true;
+            }
+        }
+        else
+        {
+            if (C43.r > brightnessThreshold || C43.g > brightnessThreshold || C43.b > brightnessThreshold)
+            {
+                gridObjects[23].SetActive(true);
+                gridObjects[23].SetActive(false);
+                seenBlack43 = false;
+            }
+        }
+        if (seenBlack44 == false)
+        {
+            if (Color.black == C44)
+            {
+                seenBlack44 = true;
+                gridObjects[24].SetActive(false);
+            }
+        }
+        else
+        {
+            if (C44.r > brightnessThreshold || C44.g > brightnessThreshold || C44.b > brightnessThreshold)
+            {
+                gridObjects[24].SetActive(true);
+                seenBlack44 = false;
+            }
+        }
+        if (seenBlack55 == false)
+        {
+            if (Color.black == C55)
+            {
+                seenBlack55 = true;
+            }
+        }
+        else
+        {
+            if (C55.r > brightnessThreshold || C55.g > brightnessThreshold || C55.b > brightnessThreshold)
+            {
+                gridObjects[25].SetActive(true);
+                gridObjects[25].SetActive(false);
+                seenBlack55 = false;
+            }
+        }
     }
-   }
 }
