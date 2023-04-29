@@ -11,13 +11,6 @@ public class flyplanet : MonoBehaviour
     private Vector3 newScale = new Vector3(5.0F, 5.0F, 5.0F);
 
 
-
-    void start()
-    {
-
-    }
-
-
     void Update()
     {
         currentTime += Time.deltaTime;

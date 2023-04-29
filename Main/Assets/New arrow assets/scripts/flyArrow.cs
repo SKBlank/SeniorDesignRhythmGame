@@ -16,13 +16,8 @@ public class flyArrow : MonoBehaviour
 
      void Start()
     {
-        //find a game object named "catcher"
         catcher = GameObject.Find("catcher");
-        // Set end pos y and z to the same as start pos
-        // endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
-
         startTime = Time.time;
-
     }
 
 
@@ -37,28 +32,19 @@ public class flyArrow : MonoBehaviour
 
         if (currentTime >= TimeToEndPos)
         {
+            TimeToEndPos = 2.0f;
             currentTime = 0.0f;
             startPos = endPos;
             endPos = catcherPos;
         }
     }
 
-    // Set start and end positions for the asteroid object
     public void SetStartAndEndPositions(GameObject start, GameObject end, GameObject catcher)
     {
         startPos = start.transform;
         endPos = end.transform;
         catcherPos = catcher.transform;
     }
-  
-
-    // void OnDestroy()
-    // {
-    //     if(startPos != null)
-    //         Destroy(startPos.gameObject);
-    //     if(endPos != null)
-    //         Destroy(endPos.gameObject);
-    // }
 
     void OnDestroy()
     {

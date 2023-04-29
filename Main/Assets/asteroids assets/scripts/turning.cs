@@ -5,22 +5,25 @@ using UnityEngine;
 public class turning : MonoBehaviour
 {
     public bool isLeft = false;
+
+    // Movement variables
     public float moveSpeed = 5.0f;
-    public float maxMoveDistance = 10.0f; // Limit for left or right movement
-    public float returnSpeed = 2.0f; // Speed for returning to original position
+    public float maxMoveDistance = 10.0f; 
+    public float returnSpeed = 2.0f; 
+
     private Vector3 originalPosition;
     private bool isMoving = false;
     private Vector3 targetPosition;
+
     private bool movedLeftReleased = true;
     private bool movedRightReleased = true;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         originalPosition = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!isMoving)
@@ -31,9 +34,8 @@ public class turning : MonoBehaviour
                 {
                     if (movedLeftReleased)
                     {
-                        targetPosition = transform.position + Vector3.back * moveSpeed * Time.deltaTime; // Change x to z axis
-                        // Clamp target position to limit
-                        targetPosition = new Vector3(targetPosition.x, targetPosition.y, Mathf.Clamp(targetPosition.z, originalPosition.z - maxMoveDistance, originalPosition.z)); // Change x to z axis
+                        targetPosition = transform.position + Vector3.back * moveSpeed * Time.deltaTime; 
+                        targetPosition = new Vector3(targetPosition.x, targetPosition.y, Mathf.Clamp(targetPosition.z, originalPosition.z - maxMoveDistance, originalPosition.z)); 
                         StartCoroutine(MoveToTargetPosition());
                         movedLeftReleased = false;
                     }
@@ -45,11 +47,10 @@ public class turning : MonoBehaviour
             }
             else
             {
-                if (Input.GetKeyDown("d") || Input.GetKeyDown("x")) // Move right
+                if (Input.GetKeyDown("d") || Input.GetKeyDown("x")) // Move Right
                 {
-                    targetPosition = transform.position + Vector3.forward * moveSpeed * Time.deltaTime; // Change x to z axis
-                    // Clamp target position to limit
-                    targetPosition = new Vector3(targetPosition.x, targetPosition.y, Mathf.Clamp(targetPosition.z, originalPosition.z, originalPosition.z + maxMoveDistance)); // Change x to z axis
+                    targetPosition = transform.position + Vector3.forward * moveSpeed * Time.deltaTime; 
+                    targetPosition = new Vector3(targetPosition.x, targetPosition.y, Mathf.Clamp(targetPosition.z, originalPosition.z, originalPosition.z + maxMoveDistance)); 
                     StartCoroutine(MoveToTargetPosition());
                 }
             }

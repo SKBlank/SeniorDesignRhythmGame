@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class ComboHealth : MonoBehaviour
 {
+    public GameObject bar;
+    public GameObject star;
     public int combo = 0;
-    public int health = 3;
+    private int health = 50;
 
     public void IncreaseCombo()
     {
         combo++;
+        IncreaseHealth();
         print("Combo: " + combo);
     }
 
     public void DecreaseHealth()
     {
         health--;
+
+        if (health <= 0)
+        {
+            health = 0;
+            print("Game Over");
+        }
     }
 
     public void ResetCombo()
@@ -29,5 +38,29 @@ public class ComboHealth : MonoBehaviour
         combo = 0;
         print("Combo: " + combo);
         print("Planet Hit");
+    }
+
+    public void IncreaseHealth()
+    {
+        health++;
+
+        if (health >= 100)
+        {
+            health = 100;
+        }
+    }
+
+    void Update()
+    {
+        bar.transform.localScale = new Vector3(100, health, 100);
+
+        if (health >= 100)
+        {
+            star.SetActive(true);
+        }
+        else
+        {
+            star.SetActive(false);
+        }
     }
 }

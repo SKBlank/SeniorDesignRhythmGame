@@ -15,11 +15,7 @@ public class flyasteroid : MonoBehaviour
 
      void Start()
     {
-        // Set end pos y and z to the same as start pos
-        // endPos.position = new Vector3(endPos.position.x, startPos.position.y, startPos.position.z);
-        //Print my start time
         startTime = Time.time;
-        //print("A: " + startTime);
     }
 
 
