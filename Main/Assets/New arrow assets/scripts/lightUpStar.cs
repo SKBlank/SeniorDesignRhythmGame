@@ -6,7 +6,7 @@ public class lightUpStar : MonoBehaviour
 {
     public KeyCode switchKey;
     public GameObject[] staroutlines;
-    // Start is called before the first frame update
+    
     void Start()
     {
         staroutlines[0].SetActive(true);
@@ -14,7 +14,6 @@ public class lightUpStar : MonoBehaviour
         staroutlines[2].SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(switchKey))

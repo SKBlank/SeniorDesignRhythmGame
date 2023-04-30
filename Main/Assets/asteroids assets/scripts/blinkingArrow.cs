@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class blinkingArrow : MonoBehaviour
 {
-   //enable and disable the arrow that this script will be on
     public GameObject arrow;
     public float blinkTime = 0.2f;
     private float timer = 0.0f;
