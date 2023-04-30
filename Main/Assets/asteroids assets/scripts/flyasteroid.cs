@@ -49,7 +49,7 @@ public class flyasteroid : MonoBehaviour
     {
         endTime = Time.time;
         lifespan = endTime - startTime;
-        print("Asteroid lifespan: " + lifespan);
+        // print("Asteroid lifespan: " + lifespan);
         if(startPos != null)
             Destroy(startPos.gameObject);
         if(endPos != null)

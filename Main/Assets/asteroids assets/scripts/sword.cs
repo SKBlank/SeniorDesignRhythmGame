@@ -9,8 +9,10 @@ public class sword : MonoBehaviour
 
     void OnTriggerEnter(Collider targetObj) 
     {
+        print("Collision Detected");
         if (targetObj.gameObject.tag == "Enemy")
         {
+            print("Enemy Hit");
             swordSound.Play();
             comboHealth.IncreaseCombo();
         }

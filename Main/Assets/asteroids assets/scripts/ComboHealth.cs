@@ -1,19 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ComboHealth : MonoBehaviour
 {
     public GameObject bar;
     public GameObject star;
-    public int combo = 0;
+    public TextMeshProUGUI comboText;
+    public TextMeshProUGUI scoreText;
+
+    private int combo = 0;
     private int health = 50;
+    private int score = 0;
+
+    void Start()
+    {
+        bar.transform.localScale = new Vector3(100, health, 100);
+        star.SetActive(false);
+        editComboText();
+    }
 
     public void IncreaseCombo()
     {
         combo++;
         IncreaseHealth();
-        print("Combo: " + combo);
+        editComboText();
+        // print("Combo: " + combo);
+        score += combo;
     }
 
     public void DecreaseHealth()
@@ -30,13 +44,14 @@ public class ComboHealth : MonoBehaviour
     public void ResetCombo()
     {
         combo = 0;
-        print("Combo: " + combo);
+        // print("Combo: " + combo);
+        editComboText();
     }
 
     public void PlanetHit()
     {
         combo = 0;
-        print("Combo: " + combo);
+        // print("Combo: " + combo);
         print("Planet Hit");
     }
 
@@ -62,5 +77,11 @@ public class ComboHealth : MonoBehaviour
         {
             star.SetActive(false);
         }
+    }
+
+    void editComboText()
+    {
+        comboText.text = combo.ToString() + "x";
+        scoreText.text = score.ToString();
     }
 }
