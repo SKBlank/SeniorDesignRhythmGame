@@ -6,6 +6,17 @@ TagManager:
   tags:
   - Enemy
   - sword
+<<<<<<< Updated upstream
+=======
+  - TrackingObject
+  - Middle
+  - Arrow
+  - HoldArrow
+  - Actors
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -42,4 +53,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: LoadingScreen
+    uniqueID: 2665753301
     locked: 0
