@@ -6,10 +6,17 @@ TagManager:
   tags:
   - Enemy
   - sword
+<<<<<<< Updated upstream
+=======
   - TrackingObject
   - Middle
   - Arrow
   - HoldArrow
+  - Actors
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
