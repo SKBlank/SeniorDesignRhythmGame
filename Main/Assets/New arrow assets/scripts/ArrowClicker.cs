@@ -4,27 +4,15 @@ using UnityEngine;
 
 public class ArrowClicker : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public ComboHealth comboHealth;
 
     void OnTriggerEnter(Collider arrow)
     {
-        // print("Arrow clicked");
-
         if (arrow.gameObject.tag == "Arrow")
         {
             float distance = Vector3.Distance(arrow.transform.position, transform.position);
             // print("Distance: " + distance);
-
+            comboHealth.IncreaseCombo();
             // print(arrow.gameObject.name + " clicked");
             Destroy(arrow.gameObject);
         }

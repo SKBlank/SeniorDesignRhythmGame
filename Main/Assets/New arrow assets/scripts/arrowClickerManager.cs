@@ -7,16 +7,14 @@ public class arrowClickerManager : MonoBehaviour
     private bool keyReleased;
     public GameObject clicker;
     public KeyCode switchKey;
-    public int activeFrames = 60; // Define the number of frames for which the clicker should be active
+    public int activeFrames = 60; // the number of frames for which the clicker should be active
 
-    // Start is called before the first frame update
     void Start()
     {
         clicker.SetActive(false);
         keyReleased = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(switchKey))

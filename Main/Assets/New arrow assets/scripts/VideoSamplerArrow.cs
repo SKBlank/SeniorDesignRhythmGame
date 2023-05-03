@@ -130,15 +130,6 @@ public class VideoSamplerArrow : MonoBehaviour
         seenBlack42 = false;
         seenBlack43 = false;
         seenBlack44 = false;
-
-
-        // Find the Instantiater script
-        // instantiaterScript = GameObject.Find("Instantiater").GetComponent<Instantiater>();
-
-        // if (instantiaterScript == null)
-        // {
-            // Debug.Log("Could not find Instantiater script");
-        // }
     }
 
     // Update is called once per frame
