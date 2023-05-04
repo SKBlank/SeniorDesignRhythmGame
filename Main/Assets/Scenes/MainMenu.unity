@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -373,9 +373,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Volume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -572,14 +571,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1916035772}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: StartGameAsteroid
-        m_Mode: 1
+        m_MethodName: LoadLevelButton
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: asteroid
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &367290236
@@ -756,9 +755,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Star Strike
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -929,9 +927,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fullscreen
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1016,14 +1013,13 @@ GameObject:
   - component: {fileID: 727145054}
   - component: {fileID: 727145056}
   - component: {fileID: 727145055}
-  - component: {fileID: 727145057}
   m_Layer: 5
   m_Name: OptionsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &727145054
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1085,20 +1081,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727145053}
   m_CullTransparentMesh: 1
---- !u!114 &727145057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727145053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14035f1fa4e1e38488c43dc5c6181503, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSlider: {fileID: 1107949533}
-  masterMixer: {fileID: 24100000, guid: 421827f95283a2d489a0173e828bb576, type: 2}
 --- !u!1 &868992316
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,7 +1426,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: NewArrow
+          m_StringArgument: New Arrow
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1037971359
@@ -1543,11 +1525,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Asteroids
+  m_text: AstroBlade
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1821,7 +1802,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 727145057}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SoundSettings, Assembly-CSharp
         m_MethodName: SetVolumeFromSlider
         m_Mode: 1
@@ -1881,7 +1862,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.57, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1983,9 +1964,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2095,7 +2075,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.2, y: -125.7}
-  m_SizeDelta: {x: 201, y: 50}
+  m_SizeDelta: {x: 249.934, y: 92.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253484400
 MonoBehaviour:
@@ -2119,9 +2099,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Loading...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2145,15 +2124,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2255,9 +2234,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2770,7 +2748,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1961716093}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2790,7 +2768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.13333334}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5647059}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2881,7 +2859,7 @@ RectTransform:
   m_Children:
   - {fileID: 419085894}
   m_Father: {fileID: 1961716093}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3120,8 +3098,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Close
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3492,8 +3470,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d2177a7b482354784f3bc3acd5b87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadingScreen: {fileID: 868992316}
   MainMenu: {fileID: 1961716089}
+  LoadingScreen: {fileID: 868992316}
+  OptionsMenu: {fileID: 727145053}
   AsyncLoadSlider: {fileID: 1102156891}
 --- !u!4 &1916035773
 Transform:
@@ -3646,9 +3625,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 100
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3815,8 +3793,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1295223740}
-  - {fileID: 1632340772}
   - {fileID: 1410652565}
+  - {fileID: 1632340772}
   - {fileID: 2042281053}
   - {fileID: 727145054}
   m_Father: {fileID: 0}
@@ -3885,11 +3863,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rhythm
+  m_text: Stellar Step
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3996,8 +3973,8 @@ RectTransform:
   m_Father: {fileID: 652185891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.57, y: 0}
+  m_AnchorMax: {x: 0.57, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

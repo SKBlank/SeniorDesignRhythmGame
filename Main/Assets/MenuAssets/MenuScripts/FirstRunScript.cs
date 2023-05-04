@@ -8,6 +8,6 @@ public class FirstRunScript : MonoBehaviour
 
          public const int MenuScene = 0;
          public const int AsteroidScene = 1;
-         public const int RhythmScene = 2;
+         public const int NewArrowScene = 2;
    }
 }
