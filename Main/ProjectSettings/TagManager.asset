@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - sword
-  - TrackingObject
-  - Middle
-  - Arrow
   - HoldArrow
+  - Arrow
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - Post Processing
+  - 
   - 
   - 
   - 
@@ -46,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: facade
+    uniqueID: 4249448477
     locked: 0
