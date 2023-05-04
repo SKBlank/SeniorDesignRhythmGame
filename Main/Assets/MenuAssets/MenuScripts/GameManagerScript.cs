@@ -1,23 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
     public GameObject gameOverScreen;
     public PauseController Pauser;
-    void Start()
-    {
-        
-    }
 
-    void Update()
-    {
-        
-    }
+    public RestartController Restarter;
 
-    public void gameOver() {
+    public void GameOver() {
         Pauser.TogglePause();
         gameOverScreen.SetActive(true);
+    }
+
+    public void RestartGame() {
+        SceneManager.LoadScene( SceneManager.GetActiveScene().name);
     }
 }

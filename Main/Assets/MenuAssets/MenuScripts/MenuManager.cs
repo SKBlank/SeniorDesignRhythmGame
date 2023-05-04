@@ -33,7 +33,7 @@ public class MenuManager : MonoBehaviour
 
     IEnumerator LoadLevelAsync(string levelLoaded) {
         if(levelLoaded != "MainMenu") {
-            LoadingScreen.SetActive(true)
+            LoadingScreen.SetActive(true);
             MainMenu.SetActive(false);
         }
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(levelLoaded);
@@ -45,13 +45,13 @@ public class MenuManager : MonoBehaviour
         }
     }
     //loads asteroid scene
-    public void StartGameAsteroid() {
+    /*public void StartGameAsteroid() {
         SceneManager.LoadScene(FirstRunScript.Globals.AsteroidScene);
     }
     //loads Arrow scene
     public void StartGameRhythm() {
         SceneManager.LoadScene(FirstRunScript.Globals.NewArrowScene);
-    }
+    }*/
 
     //exits game
     public void ExitGame() {
