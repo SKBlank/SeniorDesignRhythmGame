@@ -29476,6 +29476,16 @@ PrefabInstance:
       propertyPath: endPoint
       value: 
       objectReference: {fileID: 634565064}
+    - target: {fileID: 9001180417004381203, guid: b03a9ccd430c9354b8ee3455d1081c80,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001180417004381203, guid: b03a9ccd430c9354b8ee3455d1081c80,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 9001180417038560034, guid: b03a9ccd430c9354b8ee3455d1081c80,
         type: 3}
       propertyPath: comboHealth

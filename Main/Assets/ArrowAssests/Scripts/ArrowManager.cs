@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Not Used
 public class ArrowManager : MonoBehaviour
 {
     int key;
