@@ -29491,6 +29491,11 @@ PrefabInstance:
       propertyPath: comboHealth
       value: 
       objectReference: {fileID: 575017074}
+    - target: {fileID: 9001180417404123460, guid: b03a9ccd430c9354b8ee3455d1081c80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9001180417498678882, guid: b03a9ccd430c9354b8ee3455d1081c80,
         type: 3}
       propertyPath: endPoint

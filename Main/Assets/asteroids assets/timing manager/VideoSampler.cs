@@ -605,8 +605,8 @@ public class VideoSampler : MonoBehaviour
         {
             if (C55.r > brightnessThreshold || C55.g > brightnessThreshold || C55.b > brightnessThreshold)
             {
-                gridObjects[25].SetActive(true);
-                gridObjects[25].SetActive(false);
+                //gridObjects[25].SetActive(true);
+                //gridObjects[25].SetActive(false);
                 seenBlack55 = false;
             }
         }
