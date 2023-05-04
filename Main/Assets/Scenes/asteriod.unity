@@ -2076,8 +2076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30609ba4cb5157545b52ea508235e86f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ySpeed: 20
-  zSpeed: 20
+  ySpeed: 60
+  zSpeed: 60
   targetObject: {fileID: 823655620}
   targetObject2: {fileID: 846252911}
   planeObject: {fileID: 993253719}
@@ -29411,6 +29411,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8126790061633980381, guid: b03a9ccd430c9354b8ee3455d1081c80,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: ff993549e88353442a5f0f508d94394a,
+        type: 3}
     - target: {fileID: 9001180416570370252, guid: b03a9ccd430c9354b8ee3455d1081c80,
         type: 3}
       propertyPath: m_Name
