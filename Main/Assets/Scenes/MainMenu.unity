@@ -373,9 +373,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Volume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -572,14 +571,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1916035772}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: StartGameAsteroid
-        m_Mode: 1
+        m_MethodName: LoadLevelButton
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: asteroid
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &367290236
@@ -756,9 +755,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Star Strike
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -929,9 +927,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fullscreen
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1016,7 +1013,6 @@ GameObject:
   - component: {fileID: 727145054}
   - component: {fileID: 727145056}
   - component: {fileID: 727145055}
-  - component: {fileID: 727145057}
   m_Layer: 5
   m_Name: OptionsPanel
   m_TagString: Untagged
@@ -1085,20 +1081,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727145053}
   m_CullTransparentMesh: 1
---- !u!114 &727145057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727145053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14035f1fa4e1e38488c43dc5c6181503, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSlider: {fileID: 1107949533}
-  masterMixer: {fileID: 24100000, guid: 421827f95283a2d489a0173e828bb576, type: 2}
 --- !u!1 &868992316
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,7 +1426,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: NewArrow
+          m_StringArgument: New Arrow
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1037971359
@@ -1545,9 +1527,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Asteroids
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1821,7 +1802,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 727145057}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SoundSettings, Assembly-CSharp
         m_MethodName: SetVolumeFromSlider
         m_Mode: 1
@@ -1983,9 +1964,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2255,9 +2235,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3120,8 +3099,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Close
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3492,8 +3471,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d2177a7b482354784f3bc3acd5b87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadingScreen: {fileID: 868992316}
   MainMenu: {fileID: 1961716089}
+  LoadingScreen: {fileID: 868992316}
+  OptionsMenu: {fileID: 727145053}
   AsyncLoadSlider: {fileID: 1102156891}
 --- !u!4 &1916035773
 Transform:
@@ -3646,9 +3626,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 100
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3887,9 +3866,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Rhythm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd6f49f1004e91d4bad169ad9aaef0b4, type: 2}
-  m_sharedMaterial: {fileID: -4169507464891761993, guid: cd6f49f1004e91d4bad169ad9aaef0b4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
