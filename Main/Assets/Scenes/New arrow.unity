@@ -319,6 +319,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &50577770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1826694546662164054, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 900300124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &53028874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1057,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319000113}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.34, y: 0, z: 0}
+  m_LocalPosition: {x: -6.5, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3816,7 +3822,7 @@ PrefabInstance:
     - target: {fileID: 1826694546662164054, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1826694546662164058, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
         type: 3}
@@ -3906,7 +3912,7 @@ PrefabInstance:
     - target: {fileID: 1826694548217278544, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1826694548217278546, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
         type: 3}
@@ -3973,6 +3979,11 @@ PrefabInstance:
       propertyPath: Restarter
       value: 
       objectReference: {fileID: 1337433323}
+    - target: {fileID: 1826694548217278547, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
+        type: 3}
+      propertyPath: GameOverScreen
+      value: 
+      objectReference: {fileID: 50577770}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80222eabfb01c0e4da4fe20d8baae2b0, type: 3}
 --- !u!224 &900300125 stripped
@@ -5330,6 +5341,7 @@ MonoBehaviour:
   star: {fileID: 7053307778787550418}
   comboText: {fileID: 2007305964}
   scoreText: {fileID: 904855724}
+  GManager: {fileID: 0}
 --- !u!4 &1251379417
 Transform:
   m_ObjectHideFlags: 0
@@ -18479,7 +18491,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874460731100289186}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 968f71d9422260c4f9b0296f28c0b085, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 9257f2cde720637428ac9c2216615624, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

@@ -11,8 +11,10 @@ public class ComboHealth : MonoBehaviour
     public TextMeshProUGUI scoreText;
 
     private int combo = 0;
-    private int health = 50;
+    private int health = 5;
     private int score = 0;
+
+    [SerializeField] GameManagerScript GManager;
 
     void Start()
     {
@@ -37,6 +39,7 @@ public class ComboHealth : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
+            GManager.GameOver(score);
             print("Game Over");
         }
     }
