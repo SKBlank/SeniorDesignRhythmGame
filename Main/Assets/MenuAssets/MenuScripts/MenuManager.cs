@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 public class MenuManager : MonoBehaviour
 {
     [Header("Menus")]
@@ -13,11 +14,18 @@ public class MenuManager : MonoBehaviour
     [Header("Slider")]
     [SerializeField] private Slider AsyncLoadSlider;
 
+    [Header("VideoToggle")]
+    [SerializeField] private VideoPlayer VPlayer;
+
+    [Header("Snore")]
+
+    public float snore;
+
+    private float timeElapsed;
     void Start()
     {
         MainMenu.SetActive(true);
         OptionsMenu.SetActive(false);
-        LoadingScreen.SetActive(false);
     }
 
 
@@ -33,17 +41,30 @@ public class MenuManager : MonoBehaviour
 
     IEnumerator LoadLevelAsync(string levelLoaded) {
         if(levelLoaded != "MainMenu") {
-            LoadingScreen.SetActive(true);
             MainMenu.SetActive(false);
         }
+
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(levelLoaded);
+        loadOperation.allowSceneActivation = false;
         
         while (!loadOperation.isDone) {
+            timeElapsed += Time.deltaTime;
+            
             float progress = Mathf.Clamp01(loadOperation.progress / 0.9f);
             AsyncLoadSlider.value = progress;
+
+            if(loadOperation.progress >= 0.9f && timeElapsed >= snore) {
+                VPlayer.Pause();
+                loadOperation.allowSceneActivation = true;
+            }
             yield return null;
         }
     }
+
+    /*IEnumerator GoToSleep() {
+        yield return new WaitForSeconds(snore);
+        Debug.Log("Wake up!");
+    }*/
     //loads asteroid scene
     /*public void StartGameAsteroid() {
         SceneManager.LoadScene(FirstRunScript.Globals.AsteroidScene);
