@@ -26,9 +26,11 @@ public class BeatmapConfig : MonoBehaviour
     public void Difficulty() {
         if(PlayerPrefs.GetInt("difficulty") == 0) {
             PlayerPrefs.SetInt("difficulty", 1);
+            print(PlayerPrefs.GetInt("difficulty"));
         }
         else {
             PlayerPrefs.SetInt("difficulty", 0);
+            print(PlayerPrefs.GetInt("difficulty"));
         }
     }
 
