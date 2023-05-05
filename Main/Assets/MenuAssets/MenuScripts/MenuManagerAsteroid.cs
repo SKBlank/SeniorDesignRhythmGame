@@ -27,7 +27,7 @@ public class MenuManagerAsteroid : MonoBehaviour
         //LoadingScreen.SetActive(true);
         //MainMenu.SetActive(false);
         
-
+        Debug.Log("buttonpressed");
         StartCoroutine(LoadLevelAsync(levelLoaded));
     }
 

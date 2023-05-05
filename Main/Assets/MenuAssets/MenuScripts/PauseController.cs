@@ -14,6 +14,7 @@ public class PauseController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) {
+            Debug.Log("pause attempted");
             TogglePause();
         }
     }

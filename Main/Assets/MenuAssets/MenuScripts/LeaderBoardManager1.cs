@@ -4,10 +4,9 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 
-public class LeaderboardManager : MonoBehaviour
+public class LeaderBoardManager1 : MonoBehaviour
 {
-   // Start is called before the first frame update
-    public string[] playerNames = new string[10];
+   public string[] playerNames = new string[10];
     public int[] scores = new int[10];
 
     public 

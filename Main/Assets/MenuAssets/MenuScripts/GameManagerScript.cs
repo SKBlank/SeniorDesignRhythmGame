@@ -5,14 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
-    public GameObject gameOverScreen;
+    public GameObject GameOverScreen;
     public PauseController Pauser;
+
+    public LeaderBoardManager1 Leaderboard;
 
     public RestartController Restarter;
 
-    public void GameOver() {
-        Pauser.TogglePause();
-        gameOverScreen.SetActive(true);
+    public void GameOver(int score) {
+        if(PauseController.isPaused) {
+            Pauser.TogglePause();
+        }
+        //playerScore 
+        GameOverScreen.SetActive(true);
+        PlayerPrefs.SetInt("NewcomerScore", score);
+        //Leaderboard.Display(Leaderboard.TestEntry());
     }
 
     public void RestartGame() {
