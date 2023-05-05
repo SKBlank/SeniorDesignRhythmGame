@@ -5341,7 +5341,7 @@ MonoBehaviour:
   star: {fileID: 7053307778787550418}
   comboText: {fileID: 2007305964}
   scoreText: {fileID: 904855724}
-  GManager: {fileID: 0}
+  GManager: {fileID: 2005140519}
 --- !u!4 &1251379417
 Transform:
   m_ObjectHideFlags: 0
@@ -17782,6 +17782,18 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
+--- !u!114 &2005140519 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1826694548217278547, guid: 80222eabfb01c0e4da4fe20d8baae2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 900300124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4438fd26e2105294e9ce541624a88587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2007305964 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 708797870030456050, guid: c6586922f53ada94faed13c2a3dee205,
@@ -18528,6 +18540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874460731100289184}
   - component: {fileID: 874460731100289185}
+  - component: {fileID: 874460731100289187}
   m_Layer: 0
   m_Name: VideoClip
   m_TagString: Untagged
@@ -18535,6 +18548,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &874460731100289187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874460731100289186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6ccdb5583090249926a1a506073314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 874460731100289185}
+  sceneNum: 2
 --- !u!1001 &917424241594168080
 PrefabInstance:
   m_ObjectHideFlags: 0
